@@ -134,7 +134,7 @@ var SETDEX_GEN10 = {
             "item": "Gengarite",
             "moves": [
                 "Shadow Ball",
-                "Sludge Bomb",
+                "Sludge Wave",
                 "Perish Song",
                 "Disable"
             ]
@@ -714,10 +714,10 @@ var SETDEX_GEN10 = {
             "nature": "Adamant",
             "item": "Focus Sash",
             "moves": [
-                "High Horsepower",
+                "Earthquake",
                 "Iron Head",
                 "Rock Slide",
-                "Earthquake",
+                "Swords Dance",
             ],
         },
         "Max Speed Mega Option": {
@@ -855,9 +855,9 @@ var SETDEX_GEN10 = {
             "item": "Floettite",
             "moves": [
                 "Moonblast",
-                "Dazzling Gleam",
-                "Light of Ruin",
-                "Protect",
+                "Draining Kiss",
+                "Light of Ruin,
+                "Pyschic",
             ],
         },
         "Calm Mind Mega Sweeper": {
@@ -895,7 +895,7 @@ var SETDEX_GEN10 = {
                 "Poltergeist",
                 "Shadow Sneak",
                 "Iron Head",
-                "Sacred Sword",
+                "Close Combat",
             ],
         },
         "Lefties Wide Guard Special": {
@@ -1016,7 +1016,7 @@ var SETDEX_GEN10 = {
         },
     },
     "Corviknight": {
-        "Full Bulk TW Support": {
+        "Full Bulk IDBP": {
             "sps": {
                 "hp": 32,
                 "at": 0,
@@ -1029,9 +1029,9 @@ var SETDEX_GEN10 = {
             "item": "Leftovers",
             "moves": [
                 "Brave Bird",
+                "Iron Head",
                 "Body Press",
-                "Roost",
-                "Tailwind",
+                "U-turn",
             ],
         },
         "Bulk Up Sitrus": {
