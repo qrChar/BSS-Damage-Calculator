@@ -1,6 +1,6 @@
 var SETDEX_GEN10 = {
     "Venusaur": {
-        "Bulky Mega Offense": {
+        "Bulky Offense": {
             "sps": {
                 "hp": 32,
                 "at": 0,
@@ -10,6 +10,44 @@ var SETDEX_GEN10 = {
                 "sp": 2
             },
             "nature": "Modest",
+            "ability": "Chlorophyll",
+            "item": "Venusaurite",
+            "moves": [
+                "Giga Drain",
+                "Sludge Wave",
+                "Earth Power",
+                "Leaf Storm"
+            ]
+        },
+		"SpDef": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 2,
+                "sa": 0,
+                "sd": 32,
+                "sp": 0
+            },
+            "nature": "Calm",
+            "ability": "Chlorophyll",
+            "item": "Venusaurite",
+            "moves": [
+                "Giga Drain",
+                "Sludge Wave",
+                "Earth Power",
+                "Leaf Storm"
+            ]
+        },
+        "PhysDef": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 32,
+                "sa": 0,
+                "sd": 2,
+                "sp": 0
+            },
+            "nature": "Bold",
             "ability": "Chlorophyll",
             "item": "Venusaurite",
             "moves": [
@@ -98,7 +136,7 @@ var SETDEX_GEN10 = {
                 "Moonblast",
                 "Mystical Fire",
                 "Flamethrower",
-                "Air Slash"
+                "Stored Power"
             ]
         },
     },
@@ -197,7 +235,7 @@ var SETDEX_GEN10 = {
         },
     },
     "Starmie": {
-        "Rain Offense Mega": {
+        "Mega": {
             "sps": {
                 "hp": 2,
                 "at": 32,
@@ -206,7 +244,7 @@ var SETDEX_GEN10 = {
                 "sd": 0,
                 "sp": 32
             },
-            "nature": "Jolly",
+            "nature": "Adamant",
             "ability": "Natural Cure",
             "item": "Starminite",
             "moves": [
@@ -974,6 +1012,44 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+  "Volcarona": {
+        "Offensive Quiver": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Modest",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Fiery Dance",
+                "Bug Buzz",
+                "Giga Drain",
+                "Psychic",
+            ],
+        },
+        "PhysDef": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 32,
+                "sa": 0,
+                "sd": 0,
+                "sp": 2,
+            },
+            "nature": "Bold",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Fiery Dance",
+                "Bug Buzz",
+                "Giga Drain",
+                "Psychic",
+            ],
+        },
+    },
     "Delphox": {
         "Fast Offensive Mega": {
             "sps": {
@@ -995,6 +1071,27 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+    "Greninja": {
+        "Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "ability": "Protean",
+            "item": "Greninjaite",
+            "moves": [
+                "Ice Beam",
+                "Dark Pulse",
+                "Sludge Wave",
+                "Hydro Pump",
+            ],
+        },
+    },	
     "Talonflame": {
         "Sharp Beak TW Offense": {
             "sps": {
@@ -1029,27 +1126,27 @@ var SETDEX_GEN10 = {
             "item": "Floettite",
             "moves": [
                 "Moonblast",
-                "Dazzling Gleam",
+                "Draining Kiss",
                 "Light of Ruin",
-                "Protect",
+                "Psychic",
             ],
         },
-        "Calm Mind Mega Sweeper": {
+        "Calm Mind": {
             "sps": {
-                "hp": 26,
+                "hp": 32,
                 "at": 0,
-                "df": 2,
-                "sa": 25,
+                "df": 29,
+                "sa": 5,
                 "sd": 0,
-                "sp": 13,
+                "sp": 0,
             },
             "nature": "Modest",
             "item": "Floettite",
             "moves": [
                 "Moonblast",
-                "Dazzling Gleam",
                 "Draining Kiss",
-                "Calm Mind",
+                "Psychic",
+                "Giga Drain",
             ],
         },
     },
@@ -1364,7 +1461,7 @@ var SETDEX_GEN10 = {
         },
     },
     "Sneasler": {
-        "Offensive White Herb Unburden": {
+        "White Herb Unburden": {
             "sps": {
                 "hp": 2,
                 "at": 32,
@@ -1373,13 +1470,13 @@ var SETDEX_GEN10 = {
                 "sd": 0,
                 "sp": 32,
             },
-            "nature": "Jolly",
+            "nature": "Adamant",
             "item": "White Herb",
             "moves": [
                 "Close Combat",
                 "Dire Claw",
                 "Fake Out",
-                "Rock Slide",
+                "Throat Chop",
             ],
         },
     },
@@ -1580,10 +1677,10 @@ var SETDEX_GEN10 = {
             "nature": "Modest",
             "item": "Leftovers",
             "moves": [
-                "Electro Shot",
-                "Flash Cannon",
                 "Draco Meteor",
-                "Dragon Pulse",
+                "Flash Cannon",
+                "Thunderbolt",
+                "Aura Sphere",
             ],
         },
         "Fast Stamina Sitrus": {
@@ -1598,9 +1695,27 @@ var SETDEX_GEN10 = {
             "nature": "Modest",
             "item": "Sitrus Berry",
             "moves": [
-                "Electro Shot",
-                "Flash Cannon",
                 "Draco Meteor",
+                "Flash Cannon",
+                "Thunderbolt",
+                "Aura Sphere",
+            ],
+        },
+		"SpDef Lefties": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 0,
+                "sa": 2,
+                "sd": 32,
+                "sp": 0,
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+                "Draco Meteor",
+                "Flash Cannon",
+                "Thunderbolt",
                 "Aura Sphere",
             ],
         },
