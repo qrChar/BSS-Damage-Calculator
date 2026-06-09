@@ -1,2763 +1,2452 @@
 var SETDEX_GEN6 = {
-    //KANTO
-    "Venusaur": {
-        //2014-16 +mega
-        "Mega Wall": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 124,
-                "sa": 76,
-                "sd": 52,
-                "sp": 4
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Bold",
-            "item": "Venusaurite",
-            "moves": [
-                "Giga Drain",
-                "Sludge Bomb",
-                "Leech Seed",
-                "Protect"
-            ]
-        },
-        "Mega with Secondary Sun Mode": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 0,
-                "sa": 140,
-                "sd": 0,
-                "sp": 116
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Modest",
-            "item": "Venusaurite",
-            "moves": [
-                "Giga Drain",
-                "Sludge Bomb",
-                "Sleep Powder",
-                "Hidden Power Ice"
-            ]
-        },
-        "Sun Attacker": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Modest",
-            "item": "Focus Sash",
-            "moves": [
-                "Sludge Bomb",
-                "Giga Drain",
-                "Hidden Power Ice",
-                "Sleep Powder"
-            ]
-        },
-    },
-    "Charizard": {
-        //2014-15 mega x+y
-        "Mega X DD": {
-            "level": 50,
-            "evs": {
-                "hp": 228,
-                "at": 76,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 204
-            },
-            "nature": "Adamant",
-            "ability": "Blaze",
-            "item": "Charizardite X",
-            "moves": [
-                "Flare Blitz",
-                "Dragon Claw",
-                "Dragon Dance",
-                "Protect"
-            ]
-        },
-        "Mega Y Fast Attacker": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Charizardite Y",
-            "moves": [
-                "Heat Wave",
-                "Solar Beam",
-                "Overheat",
-                "Flamethrower"
-            ]
-        },
-        "Mega Y Coverage": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252,
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Modest",
-            "item": "Charizardite Y",
-            "moves": [
-                "Heat Wave",
-                "Solar Beam",
-                "Air Slash",
-                "Hidden Power Ice",
-            ],
-        },
-    },
-    "Blastoise": {
-        //2014-16 mega
-        "Fast Water Spout": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Blastoisinite",
-            "moves": [
-                "Water Spout",
-                "Ice Beam",
-                "Aura Sphere",
-                "Water Pulse"
-            ]
-        },
-    },
-    "Butterfree": {
-
-    },
-    "Beedrill": {
-
-    },
-    "Pidgeot": {
-
-    },
-    "Rattata": {
-
-    },
-    "Raticate": {
-
-    },
-    "Fearow": {
-
-    },
-    "Arbok": {
-
-    },
-    "Pikachu": {
-
-    },
-    "Raichu": {
-        //2014-16
-        "Sash Set": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "nature": "Timid",
-            "item": "Focus Sash",
-            "moves": [
-                "Fake Out",
-                "Volt Switch",
-                "Hidden Power Ice",
-                "Thunderbolt"
-            ]
-        },
-    },
-    "Sandslash": {
-
-    },
-    "Nidoqueen": {
-        //2014-15
-    },
-    "Nidoking": {
-        //2014-15
-    },
-    "Clefairy": {
-        //2016
-    },
-    "Clefable": {
-        //2015-16
-    },
-    "Ninetales": {
-
-    },
-    "Wigglytuff": {
-        //2014
-        "Ray Rizzo's Massachusetts 1st AV Coverage": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 188,
-                "sa": 236,
-                "sd": 12,
-                "sp": 68
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Assault Vest",
-            "moves": [
-                "Dazzling Gleam",
-                "Fire Blast",
-                "Thunderbolt",
-                "Hyper Beam"
-            ]
-        },
-    },
-    "Vileplume": {
-
-    },
-    "Parasect": {
-
-    },
-    "Venomoth": {
-
-    },
-    "Dugtrio": {
-
-    },
-    "Persian": {
-
-    },
-    "Psyduck": {
-
-    },
-    "Golduck": {
-        //2016
-    },
-    "Primeape": {
-
-    },
-    "Arcanine": {
-        //2015-16
-    },
-    "Poliwrath": {
-
-    },
-    "Alakazam": {
-        "Okay who was ballin' with this Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 228,
-                "at": 0,
-                "df": 140,
-                "sa": 4,
-                "sd": 4,
-                "sp": 132
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Alakazite",
-            "moves": [
-                "Psychic",
-                "Dazzling Gleam",
-                "Calm Mind",
-                "Protect"
-            ]
-        },
-    },
-    "Machamp": {
-        //2014-15
-    },
-    "Victreebel": {
-
-    },
-    "Tentacruel": {
-
-    },
-    "Golem": {
-
-    },
-    "Rapidash": {
-
-    },
-    "Slowpoke": {
-
-    },
-    "Slowbro": {
-        //2016
-    },
-    "Farfetch\u0027d": {
-
-    },
-    "Dodrio": {
-
-    },
-    "Dewgong": {
-        //2015
-    },
-    "Muk": {
-        //2015
-    },
-    "Cloyster": {
-
-    },
-    "Haunter": {
-
-    },
-    "Gengar": {
-        //2014-15 +mega, 2016 mega
-        "Offensive Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Gengarite",
-            "moves": [
-                "Shadow Ball",
-                "Sludge Bomb",
-                "Dazzling Gleam",
-                "Protect"
-            ]
-        },
-        "Classic Wolfe Glick Perish Trap": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 44,
-                "sa": 4,
-                "sd": 28,
-                "sp": 180
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Gengarite",
-            "moves": [
-                "Shadow Ball",
-                "Perish Song",
-                "Disable",
-                "Protect"
-            ]
-        },
-    },
-    "Hypno": {
-
-    },
-    "Kingler": {
-
-    },
-    "Electrode": {
-        //2016
-    },
-    "Exeggutor": {
-        //2016
-    },
-    "Marowak": {
-
-    },
-    "Hitmonlee": {
-
-    },
-    "Hitmonchan": {
-
-    },
-    "Weezing": {
-
-    },
-    "Rhydon": {
-
-    },
-    "Chansey": {
-        //2015
-    },
-    "Tangela": {
-
-    },
-    "Kangaskhan": {
-        //2014-15 mega, 2016 +mega
-        "Fake Out + 3 Attacks": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Kangaskhanite",
-            "moves": [
-                "Fake Out",
-                "Power-Up Punch",
-                "Return",
-                "Sucker Punch"
-            ]
-        },
-        "Protect PUP": {
-            "level": 50,
-            "evs": {
-                "hp": 212,
-                "at": 132,
-                "df": 4,
-                "sa": 0,
-                "sd": 100,
-                "sp": 60
-            },
-            "nature": "Adamant",
-            "item": "Kangaskhanite",
-            "moves": [
-                "Power-Up Punch",
-                "Return",
-                "Sucker Punch",
-                "Protect"
-            ]
-        },
-        "2014 Slow Hammer Arm": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 4,
-                "sp": 0
-            },
-            "nature": "Adamant",
-            "item": "Kangaskhanite",
-            "moves": [
-                "Double-Edge",
-                "Hammer Arm",
-                "Sucker Punch",
-                "Protect"
-            ]
-        },
-    },
-    "Seaking": {
-
-    },
-    "Starmie": {
-
-    },
-    "Mr. Mime": {
-
-    },
-    "Scyther": {
-
-    },
-    "Jynx": {
-        //2016
-    },
-    "Electabuzz": {
-
-    },
-    "Magmar": {
-
-    },
-    "Pinsir": {
-        //2014 mega
-        "The 2014 Aerilate Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "ability": "Moxie",
-            "item": "Pinsirite",
-            "moves": [
-                "Return",
-                "Earthquake",
-                "Feint",
-                "Swords Dance"
-            ]
-        },
-    },
-    "Tauros": {
-        //2015
-    },
-    "Gyarados": {
-        //2014-15 +mega, 2016
-        "Mega DD": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Adamant",
-            "item": "Gyaradosite",
-            "moves": [
-                "Waterfall",
-                "Earthquake",
-                "Dragon Dance",
-                "Protect"
-            ]
-        },
-        "Mega Coverage/Taunt": {
-            "level": 50,
-            "evs": {
-                "hp": 196,
-                "at": 116,
-                "df": 4,
-                "sa": 0,
-                "sd": 4,
-                "sp": 188
-            },
-            "nature": "Adamant",
-            "item": "Gyaradosite",
-            "moves": [
-                "Waterfall",
-                "Earthquake",
-                "Ice Fang",
-                "Taunt"
-            ]
-        },
-    },
-    "Lapras": {
-        //2014, 2016
-        "Jhufself's Nats T4 AV": {
-            "level": 50,
-            "evs": {
-                "hp": 76,
-                "at": 4,
-                "df": 4,
-                "sa": 180,
-                "sd": 244,
-                "sp": 0
-            },
-            "nature": "Sassy",
-            "item": "Assault Vest",
-            "moves": [
-                "Freeze-Dry",
-                "Hydro Pump",
-                "Ancient Power",
-                "Ice Shard"
-            ]
-        },
-    },
-    "Ditto": {
-        //2014-16
-    },
-    "Eevee": {
-
-    },
-    "Vaporeon": {
-
-    },
-    "Jolteon": {
-
-    },
-    "Flareon": {
-
-    },
-    "Omastar": {
-
-    },
-    "Kabutops": {
-
-    },
-    "Aerodactyl": {
-        //2014-16 +mega
-        "Mega Offense": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Adamant",
-            "item": "Aerodactylite",
-            "moves": [
-                "Rock Slide",
-                "Sky Drop",
-                "Ice Fang",
-                "Protect"
-            ]
-        },
-    },
-    "Snorlax": {
-        //2014-15
-    },
-    "Articuno": {
-
-    },
-    "Zapdos": {
-        //2014-16
-        "2014 Goggles Twave": {
-            "level": 50,
-            "evs": {
-                "hp": 220,
-                "at": 0,
-                "df": 148,
-                "sa": 28,
-                "sd": 76,
-                "sp": 36
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Calm",
-            "ability": "Pressure",
-            "item": "Safety Goggles",
-            "moves": [
-                "Thunderbolt",
-                "Hidden Power Ice",
-                "Roost",
-                "Thunder Wave"
-            ]
-        },
-    },
-    "Moltres": {
-
-    },
-    "Dragonite": {
-        //2014
-    },
-    "Mewtwo": {
-        //2016 +mega y
-    },
-
-    //JOHTO
-    "Meganium": {
-
-    },
-    "Typhlosion": {
-        //2015
-    },
-    "Feraligatr": {
-
-    },
-    "Furret": {
-        //2016
-    },
-    "Noctowl": {
-
-    },
-    "Ledian": {
-
-    },
-    "Ariados": {
-
-    },
-    "Crobat": {
-        //2016
-    },
-    "Lanturn": {
-
-    },
-    "Togetic": {
-
-    },
-    "Xatu": {
-
-    },
-    "Ampharos": {
-        //2014 mega
-        "What else does a Mega Ampharos do": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 0
-            },
-            "ivs": {
-                "at": 0,
-                "sp": 0
-            },
-            "nature": "Quiet",
-            "item": "Ampharosite",
-            "moves": [
-                "Thunderbolt",
-                "Dragon Pulse",
-                "Focus Blast",
-                "Protect"
-            ]
-        },
-    },
-    "Bellossom": {
-
-    },
-    "Azumarill": {
-        //2014-15
-        "Sitrus Belly Drum": {
-            "level": 50,
-            "evs": {
-                "hp": 244,
-                "at": 252,
-                "df": 4,
-                "sa": 0,
-                "sd": 4,
-                "sp": 4
-            },
-            "nature": "Adamant",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Aqua Jet",
-                "Play Rough",
-                "Belly Drum",
-                "Protect"
-            ]
-        },
-    },
-    "Sudowoodo": {
-
-    },
-    "Politoed": {
-        //2014-15
-        "Bulky Leftovers": {
-            "level": 50,
-            "evs": {
-                "hp": 220,
-                "at": 0,
-                "df": 188,
-                "sa": 4,
-                "sd": 92,
-                "sp": 4
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Calm",
-            "item": "Leftovers",
-            "moves": [
-                "Scald",
-                "Ice Beam",
-                "Encore",
-                "Perish Song"
-            ]
-        },
-    },
-    "Jumpluff": {
-        //2016
-    },
-    "Sunflora": {
-        //2016
-    },
-    "Quagsire": {
-
-    },
-    "Espeon": {
-
-    },
-    "Umbreon": {
-
-    },
-    "Murkrow": {
-        //2014-16
-        "Eviolite Prankster": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 68,
-                "sa": 4,
-                "sd": 180,
-                "sp": 4
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Calm",
-            "item": "Eviolite",
-            "moves": [
-                "Foul Play",
-                "Taunt",
-                "Tailwind",
-                "Quash"
-            ]
-        },
-    },
-    "Slowking": {
-        //2014
-    },
-    "Misdreavus": {
-
-    },
-    "Unown": {
-
-    },
-    "Wobbuffet": {
-
-    },
-    "Girafarig": {
-
-    },
-    "Forretress": {
-
-    },
-    "Dunsparce": {
-
-    },
-    "Gligar": {
-
-    },
-    "Steelix": {
-
-    },
-    "Granbull": {
-
-    },
-    "Qwilfish": {
-
-    },
-    "Scizor": {
-        //2014-16 +mega
-        "2014 Limited Moveset": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 4
-            },
-            "nature": "Adamant",
-            "item": "Lum Berry",
-            "moves": [
-                "X-Scissor",
-                "Bullet Punch",
-                "Swords Dance",
-                "Protect"
-            ]
-        },
-        "2014 Scizor but Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 4
-            },
-            "nature": "Adamant",
-            "item": "Scizorite",
-            "moves": [
-                "Bullet Punch",
-                "X-Scissor",
-                "Swords Dance",
-                "Protect"
-            ]
-        },
-    },
-    "Shuckle": {
-
-    },
-    "Heracross": {
-        //2014
-        "Mega Attacker in Tailwind": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Adamant",
-            "ability": "Moxie",
-            "item": "Heracronite",
-            "moves": [
-                "Pin Missile",
-                "Close Combat",
-                "Rock Blast",
-                "Protect"
-            ]
-        },
-    },
-    "Sneasel": {
-        //2016
-    },
-    "Ursaring": {
-
-    },
-    "Magcargo": {
-
-    },
-    "Swinub": {
-
-    },
-    "Piloswine": {
-
-    },
-    "Corsola": {
-
-    },
-    "Octillery": {
-        //2014
-    },
-    "Delibird": {
-
-    },
-    "Mantine": {
-        //2016
-    },
-    "Skarmory": {
-
-    },
-    "Houndoom": {
-        //2014-16 mega
-        "Mega Sun Offense": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Houndoominite",
-            "moves": [
-                "Heat Wave",
-                "Dark Pulse",
-                "Solar Beam",
-                "Overheat"
-            ]
-        },
-    },
-    "Kingdra": {
-        //2014-15
-        "Specs Swift Swim": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Choice Specs",
-            "moves": [
-                "Muddy Water",
-                "Draco Meteor",
-                "Ice Beam",
-                "Hydro Pump"
-            ]
-        },
-    },
-    "Donphan": {
-
-    },
-    "Porygon2": {
-        //2015
-    },
-    "Stantler": {
-        //2016
-    },
-    "Smeargle": {
-        //2014-16
-        "Unfettered Moody Dark Void": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 252,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Focus Sash",
-            "moves": [
-                "Fake Out",
-                "Follow Me",
-                "Dark Void",
-                "Spiky Shield"
-            ]
-        },
-    },
-    "Hitmontop": {
-        //2015-16
-    },
-    "Miltank": {
-        //2014
-    },
-    "Blissey": {
-
-    },
-    "Raikou": {
-        //2015
-    },
-    "Entei": {
-        //2015
-    },
-    "Suicune": {
-        //2015-16
-    },
-    "Tyranitar": {
-        //2014-2015 +mega
-        "2014 Dark Pulse Mixed Scarf": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Timid",
-            "item": "Choice Scarf",
-            "moves": [
-                "Rock Slide",
-                "Dark Pulse",
-                "Ice Beam",
-                "Fire Blast"
-            ]
-        },
-        "Mega DD": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Tyranitarite",
-            "moves": [
-                "Rock Slide",
-                "Crunch",
-                "Dragon Dance",
-                "Protect"
-            ]
-        },
-    },
-    "Lugia": {
-        //2016
-    },
-    "Ho-Oh": {
-        //2016
-    },
-
-    //HOENN
-    "Sceptile": {
-        //2015-16 mega
-    },
-    "Blaziken": {
-        //2015 +mega
-    },
-    "Swampert": {
-        //2015 +mega, 2016 mega
-    },
-    "Mightyena": {
-
-    },
-    "Linoone": {
-
-    },
-    "Beautifly": {
-
-    },
-    "Dustox": {
-
-    },
-    "Ludicolo": {
-        //2014-16
-        "Bulky Swift Swim AV": {
-            "level": 50,
-            "evs": {
-                "hp": 108,
-                "at": 0,
-                "df": 148,
-                "sa": 124,
-                "sd": 12,
-                "sp": 116
-            },
-            "nature": "Modest",
-            "item": "Assault Vest",
-            "moves": [
-                "Scald",
-                "Giga Drain",
-                "Ice Beam",
-                "Fake Out"
-            ]
-        },
-    },
-    "Shiftry": {
-
-    },
-    "Taillow": {
-
-    },
-    "Swellow": {
-
-    },
-    "Pelipper": {
-
-    },
-    "Gardevoir": {
-        //2014, 2015-16 mega
-        "2014 Timid Scarf": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 60,
-                "sa": 252,
-                "sd": 4,
-                "sp": 188
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Choice Scarf",
-            "moves": [
-                "Psychic",
-                "Psyshock",
-                "Moonblast",
-                "Dazzling Gleam"
-            ]
-        },
-        "Gimmicky 2014 Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 124,
-                "sa": 124,
-                "sd": 4,
-                "sp": 4
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Gardevoirite",
-            "moves": [
-                "Psychic",
-                "Round",
-                "Hyper Beam",
-                "Trick Room"
-            ]
-        },
-    },
-    "Masquerain": {
-
-    },
-    "Breloom": {
-        //2015-16
-    },
-    "Slaking": {
-
-    },
-    "Ninjask": {
-
-    },
-    "Shedinja": {
-        //2016
-    },
-    "Exploud": {
-
-    },
-    "Hariyama": {
-        //2014
-    },
-    "Azurill": {
-
-    },
-    "Nosepass": {
-
-    },
-    "Delcatty": {
-
-    },
-    "Sableye": {
-        //2014, 2015 +mega
-        "Prankster Disruption": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 4,
-                "sa": 0,
-                "sd": 252,
-                "sp": 0
-            },
-            "nature": "Careful",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Foul Play",
-                "Fake Out",
-                "Will-O-Wisp",
-                "Taunt"
-            ]
-        },
-    },
-    "Mawile": {
-        //2014-16 mega
-        "Standard Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 132,
-                "df": 0,
-                "sa": 0,
-                "sd": 124,
-                "sp": 0
-            },
-            "nature": "Adamant",
-            "item": "Mawilite",
-            "moves": [
-                "Iron Head",
-                "Play Rough",
-                "Sucker Punch",
-                "Protect"
-            ]
-        },
-        "Max HP Max Attack Coverage": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 4,
-                "sp": 0
-            },
-            "nature": "Adamant",
-            "item": "Mawilite",
-            "moves": [
-                "Play Rough",
-                "Sucker Punch",
-                "Rock Slide",
-                "Fire Fang"
-            ]
-        },
-    },
-    "Aron": {
-
-    },
-    "Aggron": {
-        //2014 mega
-        "Mega Meme Stall": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 4,
-                "sa": 0,
-                "sd": 252,
-                "sp": 0
-            },
-            "nature": "Careful",
-            "ability": "Heavy Metal",
-            "item": "Aggronite",
-            "moves": [
-                "Heavy Slam",
-                "Rock Slide",
-                "Thunder Wave",
-                "Substitute"
-            ]
-        },
-    },
-    "Medicham": {
-        //2014 mega
-        "Mega Fake Out + 3 STABs": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Medichamite",
-            "moves": [
-                "Drain Punch",
-                "Zen Headbutt",
-                "High Jump Kick",
-                "Fake Out"
-            ]
-        },
-    },
-    "Manectric": {
-        //2014-16 mega
-        "Mega Variety Coverage": {
-            "level": 50,
-            "evs": {
-                "hp": 76,
-                "at": 0,
-                "df": 16,
-                "sa": 196,
-                "sd": 0,
-                "sp": 220
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Timid",
-            "item": "Manectite",
-            "moves": [
-                "Volt Switch",
-                "Overheat",
-                "Hidden Power Ice",
-                "Thunderbolt"
-            ]
-        },
-        "Offensive Rain Thunder": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-                "df": 30,
-            },
-            "nature": "Timid",
-            "item": "Manectite",
-            "moves": [
-                "Thunder",
-                "Hidden Power Ice",
-                "Volt Switch",
-                "Protect"
-            ]
-        },
-    },
-    "Plusle": {
-
-    },
-    "Minun": {
-
-    },
-    "Volbeat": {
-
-    },
-    "Illumise": {
-
-    },
-    "Roselia": {
-
-    },
-    "Swalot": {
-
-    },
-    "Sharpedo": {
-        //2015 mega
-    },
-    "Wailord": {
-
-    },
-    "Camerupt": {
-        //2015 mega
-    },
-    "Torkoal": {
-
-    },
-    "Grumpig": {
-
-    },
-    "Spinda": {
-
-    },
-    "Trapinch": {
-
-    },
-    "Flygon": {
-
-    },
-    "Cacturne": {
-
-    },
-    "Altaria": {
-        //2015 mega
-    },
-    "Zangoose": {
-
-    },
-    "Seviper": {
-
-    },
-    "Lunatone": {
-
-    },
-    "Solrock": {
-
-    },
-    "Whiscash": {
-
-    },
-    "Crawdaunt": {
-        //2014
-    },
-    "Claydol": {
-
-    },
-    "Lileep": {
-
-    },
-    "Cradily": {
-        //2016
-    },
-    "Armaldo": {
-
-    },
-    "Milotic": {
-        //2015
-    },
-    "Castform": {
-
-    },
-    "Kecleon": {
-        //2014
-    },
-    "Banette": {
-        //2014-15 mega
-        "Mega Offensive-Support Mix": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 132,
-                "sa": 0,
-                "sd": 124,
-                "sp": 0
-            },
-            "nature": "Adamant",
-            "ability": "Frisk",
-            "item": "Banettite",
-            "moves": [
-                "Phantom Force",
-                "Sucker Punch",
-                "Will-O-Wisp",
-                "Disable"
-            ]
-        },
-    },
-    "Dusclops": {
-
-    },
-    "Tropius": {
-
-    },
-    "Chimecho": {
-
-    },
-    "Absol": {
-        //2014 mega
-        "This is certainly a Mega that exists": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 0,
-                "sa": 4,
-                "sd": 0,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Absolite",
-            "moves": [
-                "Snarl",
-                "Dark Pulse",
-                "Ice Beam",
-                "Fire Blast"
-            ]
-        },
-    },
-    "Glalie": {
-        //2015 mega
-    },
-    "Walrein": {
-
-    },
-    "Clamperl": {
-
-    },
-    "Huntail": {
-
-    },
-    "Gorebyss": {
-
-    },
-    "Relicanth": {
-
-    },
-    "Luvdisc": {
-
-    },
-    "Salamence": {
-        //2014, 2015-16 mega
-        "2014 Scarf": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Timid",
-            "item": "Choice Scarf",
-            "moves": [
-                "Draco Meteor",
-                "Dragon Pulse",
-                "Fire Blast",
-                "Rock Slide"
-            ]
-        },
-    },
-    "Metagross": {
-        //2015-16 mega
-    },
-    "Regirock": {
-
-    },
-    "Regice": {
-
-    },
-    "Registeel": {
-
-    },
-    "Latias": {
-        //2016
-    },
-    "Latios": {
-        //2016
-    },
-    "Kyogre": {
-        //2016 primal
-    },
-    "Groudon": {
-        //2016 primal
-    },
-    "Rayquaza": {
-        //2016 mega
-    },
-
-    //SINNOH
-    "Torterra": {
-        //2015
-    },
-    "Infernape": {
-        //2015-16
-    },
-    "Empoleon": {
-
-    },
-    "Staraptor": {
-        //2014-15
-        "Scarf Final Gambit": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 4,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "ability": "",
-            "item": "Choice Scarf",
-            "moves": [
-                "Brave Bird",
-                "Close Combat",
-                "U-turn",
-                "Final Gambit"
-            ]
-        },
-    },
-    "Bibarel": {
-
-    },
-    "Kricketune": {
-
-    },
-    "Luxray": {
-
-    },
-    "Roserade": {
-
-    },
-    "Rampardos": {
-
-    },
-    "Bastiodon": {
-
-    },
-    "Wormadam": {
-
-    },
-    "Mothim": {
-
-    },
-    "Vespiquen": {
-
-    },
-    "Pachirisu": {
-        //2014
-        "Sejun's Worlds 1st Max Defense Support": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 252,
-                "sa": 0,
-                "sd": 4,
-                "sp": 0
-            },
-            "nature": "Impish",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Super Fang",
-                "Nuzzle",
-                "Follow Me",
-                "Protect"
-            ]
-        },
-    },
-    "Floatzel": {
-        //2016
-    },
-    "Cherrim": {
-        //2016
-    },
-    "Gastrodon": {
-        //2015-16
-    },
-    "Ambipom": {
-
-    },
-    "Drifblim": {
-
-    },
-    "Lopunny": {
-
-    },
-    "Mismagius": {
-
-    },
-    "Honchkrow": {
-        //2014
-    },
-    "Purugly": {
-
-    },
-    "Skuntank": {
-
-    },
-    "Bronzor": {
-        //2016
-    },
-    "Bronzong": {
-        //2016
-    },
-    "Mime Jr.": {
-
-    },
-    "Chatot": {
-
-    },
-    "Spiritomb": {
-
-    },
-    "Garchomp": {
-        //2014
-        "Life Orb Max Speed": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Life Orb",
-            "moves": [
-                "Dragon Claw",
-                "Earthquake",
-                "Rock Slide",
-                "Protect"
-            ]
-        },
-        "DemitriJK's San Jose T4 Mixed Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 20,
-                "at": 204,
-                "df": 0,
-                "sa": 28,
-                "sd": 4,
-                "sp": 252
-            },
-            "nature": "Hasty",
-            "ability": "Sand Veil",
-            "item": "Garchompite",
-            "moves": [
-                "Draco Meteor",
-                "Earthquake",
-                "Rock Slide",
-                "Protect"
-            ]
-        },
-    },
-    "Riolu": {
-
-    },
-    "Lucario": {
-        //2014-15 mega
-        "Physical Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Lucarionite",
-            "moves": [
-                "Close Combat",
-                "Bullet Punch",
-                "Rock Slide",
-                "Protect"
-            ]
-        },
-        "Special Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 252
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Timid",
-            "item": "Lucarionite",
-            "moves": [
-                "Aura Sphere",
-                "Flash Cannon",
-                "Vacuum Wave",
-                "Protect"
-            ]
-        },
-        "Sash Offense": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "item": "Focus Sash",
-            "moves": [
-                "Close Combat",
-                "Bullet Punch",
-                "Extreme Speed",
-                "Follow Me"
-            ]
-        },
-    },
-    "Hippowdon": {
-
-    },
-    "Drapion": {
-        //2014
-    },
-    "Toxicroak": {
-
-    },
-    "Carnivine": {
-
-    },
-    "Lumineon": {
-
-    },
-    "Mantyke": {
-        //2016
-    },
-    "Abomasnow": {
-        //2014-15 mega
-        "Mixed Slow Mega": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 4,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 0
-            },
-            "ivs": {
-                "sp": 0,
-            },
-            "nature": "Quiet",
-            "item": "Abomasite",
-            "moves": [
-                "Blizzard",
-                "Energy Ball",
-                "Ice Shard",
-                "Wood Hammer"
-            ]
-        },
-    },
-    "Weavile": {
-        //2014-16
-        "2014 Fling Double Flinch": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252
-            },
-            "nature": "Jolly",
-            "ability": "Pickpocket",
-            "item": "King's Rock",
-            "moves": [
-                "Fake Out",
-                "Fling",
-                "Icicle Crash",
-                "Night Slash"
-            ]
-        },
-    },
-    "Magnezone": {
-
-    },
-    "Lickilicky": {
-
-    },
-    "Rhyperior": {
-        //2014-15
-        "Weakness Policy TR Offense": {
-            "level": 50,
-            "evs": {
-                "hp": 68,
-                "at": 244,
-                "df": 0,
-                "sa": 0,
-                "sd": 196,
-                "sp": 0
-            },
-            "ivs": {
-                "sp": 0,
-            },
-            "nature": "Brave",
-            "ability": "Solid Rock",
-            "item": "Weakness Policy",
-            "moves": [
-                "Rock Slide",
-                "Earthquake",
-                "Drill Run",
-                "Ice Punch"
-            ]
-        },
-    },
-    "Tangrowth": {
-
-    },
-    "Electivire": {
-
-    },
-    "Magmortar": {
-
-    },
-    "Togekiss": {
-        //2015-16
-    },
-    "Yanmega": {
-
-    },
-    "Leafeon": {
-
-    },
-    "Glaceon": {
-
-    },
-    "Gliscor": {
-
-    },
-    "Mamoswine": {
-        //2014
-        "2014 Life Orb": {
-            "level": 50,
-            "evs": {
-                "hp": 0,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 4,
-                "sp": 252
-            },
-            "nature": "Adamant",
-            "item": "Life Orb",
-            "moves": [
-                "Icicle Crash",
-                "Earthquake",
-                "Ice Shard",
-                "Rock Slide"
-            ]
-        },
-    },
-    "Porygon-Z": {
-
-    },
-    "Gallade": {
-        //2015 mega
-    },
-    "Probopass": {
-
-    },
-    "Dusknoir": {
-
-    },
-    "Froslass": {
-
-    },
-    "Rotom": {
-
-    },
-    "Rotom-Mow": {
-        //2014
-        "Bulky Wisp": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 100,
-                "sa": 60,
-                "sd": 92,
-                "sp": 4
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Bold",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Thunderbolt",
-                "Leaf Storm",
-                "Will-O-Wisp",
-                "Protect"
-            ]
-        },
-    },
-    "Rotom-Frost": {
-        //2014
-    },
-    "Rotom-Heat": {
-        //2014-15
-        "Bulky Wisp": {
-            "level": 50,
-            "evs": {
-                "hp": 244,
-                "at": 0,
-                "df": 36,
-                "sa": 140,
-                "sd": 4,
-                "sp": 84
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Thunderbolt",
-                "Overheat",
-                "Will-O-Wisp",
-                "Protect"
-            ]
-        },
-    },
-    "Rotom-Fan": {
-
-    },
-    "Rotom-Wash": {
-        //2014-16
-        "Bulky Wisp": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 84,
-                "sa": 108,
-                "sd": 44,
-                "sp": 20
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Calm",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Thunderbolt",
-                "Hydro Pump",
-                "Will-O-Wisp",
-                "Protect"
-            ]
-        },
-    },
-    "Uxie": {
-
-    },
-    "Mesprit": {
-
-    },
-    "Azelf": {
-
-    },
-    "Dialga": {
-        //2016
-    },
-    "Palkia": {
-        //2016
-    },
-    "Heatran": {
-        //2015
-    },
-    "Regigigas": {
-
-    },
-    "Giratina": {
-        
-    },
-    "Giratina-Origin": {
-        //2016
-    },
-    "Cresselia": {
-        //2015-16
-    },
-
-    //UNOVA
-    "Serperior": {
-        //2015
-    },
-    "Emboar": {
-
-    },
-    "Samurott": {
-
-    },
-    "Watchog": {
-
-    },
-    "Stoutland": {
-        //2015
-    },
-    "Purrloin": {
-
-    },
-    "Liepard": {
-        //2014-15
-    },
-    "Simisage": {
-
-    },
-    "Simisear": {
-
-    },
-    "Simipour": {
-
-    },
-    "Musharna": {
-
-    },
-    "Unfezant": {
-
-    },
-    "Zebstrika": {
-
-    },
-    "Gigalith": {
-
-    },
-    "Swoobat": {
-
-    },
-    "Excadrill": {
-        //2015
-    },
-    "Audino": {
-        //2015 mega
-    },
-    "Conkeldurr": {
-        //2014-15
-        "BattleRoom's Worlds T4 AV": {
-            "level": 50,
-            "evs": {
-                "hp": 212,
-                "at": 44,
-                "df": 144,
-                "sa": 0,
-                "sd": 108,
-                "sp": 0,
-            },
-            "ivs": {
-                "sp": 15,
-            },
-            "nature": "Adamant",
-            "ability": "Guts",
-            "item": "Assault Vest",
-            "moves": [
-                "Mach Punch",
-                "Drain Punch",
-                "Payback",
-                "Rock Slide",
-            ],
-        },
-    },
-    "Palpitoad": {
-        //2016
-    },
-    "Seismitoad": {
-        //2015
-    },
-    "Throh": {
-
-    },
-    "Sawk": {
-
-    },
-    "Leavanny": {
-
-    },
-    "Scolipede": {
-
-    },
-    "Whimsicott": {
-        //2015-16
-    },
-    "Lilligant": {
-        //2016
-    },
-    "Basculin": {
-
-    },
-    "Krookodile": {
-        //2014
-    },
-    "Darmanitan": {
-
-    },
-    "Maractus": {
-
-    },
-    "Crustle": {
-
-    },
-    "Scrafty": {
-        //2014-16
-        "2014 Lum": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 140,
-                "df": 0,
-                "sa": 0,
-                "sd": 116,
-                "sp": 0,
-            },
-            "nature": "Sassy",
-            "item": "Lum Berry",
-            "moves": [
-                "Fake Out",
-                "Drain Punch",
-                "Taunt",
-                "Crunch",
-            ],
-        },
-    },
-    "Sigilyph": {
-
-    },
-    "Cofagrigus": {
-
-    },
-    "Carracosta": {
-
-    },
-    "Archeops": {
-
-    },
-    "Garbodor": {
-
-    },
-    "Zoroark": {
-
-    },
-    "Cinccino": {
-
-    },
-    "Gothorita": {
-
-    },
-    "Gothitelle": {
-        //2014-15
-        "2014 Sitrus TR Support": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 12,
-                "sa": 0,
-                "sd": 244,
-                "sp": 0,
-            },
-            "ivs": {
-                "at": 0,
-                "sp": 0,
-            },
-            "nature": "Sassy",
-            "item": "Sitrus Berry",
-            "moves": [
-                "Psychic",
-                "Trick Room",
-                "Heal Pulse",
-                "Protect",
-            ],
-        },
-    },
-    "Reuniclus": {
-        //2014
-    },
-    "Swanna": {
-
-    },
-    "Vanilluxe": {
-
-    },
-    "Sawsbuck": {
-
-    },
-    "Emolga": {
-
-    },
-    "Escavalier": {
-        //2014-15
-    },
-    "Amoonguss": {
-        //2014-16
-        "Min Speed Relaxed Helmet": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 156,
-                "sa": 0,
-                "sd": 100,
-                "sp": 0,
-            },
-            "ivs": {
-                "at": 0,
-                "sp": 0,
-            },
-            "nature": "Relaxed",
-            "item": "Rocky Helmet",
-            "moves": [
-                "Giga Drain",
-                "Sludge Bomb",
-                "Spore",
-                "Rage Powder",
-            ],
-        },
-    },
-    "Jellicent": {
-        //2015
-    },
-    "Alomomola": {
-
-    },
-    "Galvantula": {
-
-    },
-    "Ferrothorn": {
-        //2014-16
-        "Helmet Double Chip": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 140,
-                "df": 0,
-                "sa": 0,
-                "sd": 116,
-                "sp": 0,
-            },
-            "ivs": {
-                "sp": 0,
-            },
-            "nature": "Brave",
-            "item": "Rocky Helmet",
-            "moves": [
-                "Gyro Ball",
-                "Power Whip",
-                "Leech Seed",
-                "Protect",
-            ],
-        },
-    },
-    "Klinklang": {
-
-    },
-    "Eelektross": {
-
-    },
-    "Beheeyem": {
-
-    },
-    "Chandelure": {
-        //2014
-        "Sash TR": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 0,
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Focus Sash",
-            "moves": [
-                "Shadow Ball",
-                "Heat Wave",
-                "Overheat",
-                "Trick Room",
-            ],
-        },
-    },
-    "Haxorus": {
-        //2014
-    },
-    "Beartic": {
-
-    },
-    "Cryogonal": {
-
-    },
-    "Accelgor": {
-
-    },
-    "Stunfisk": {
-
-    },
-    "Mienshao": {
-
-    },
-    "Druddigon": {
-
-    },
-    "Golurk": {
-
-    },
-    "Bisharp": {
-        //2015
-    },
-    "Braviary": {
-
-    },
-    "Mandibuzz": {
-
-    },
-    "Heatmor": {
-
-    },
-    "Durant": {
-
-    },
-    "Hydreigon": {
-        //2014-16
-        "Modest Specs": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252,
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Choice Specs",
-            "moves": [
-                "Dark Pulse",
-                "Draco Meteor",
-                "Earth Power",
-                "Flamethrower",
-            ],
-        },
-    },
-    "Volcarona": {
-        //2015
-    },
-    "Cobalion": {
-
-    },
-    "Terrakion": {
-        //2015
-    },
-    "Virizion": {
-
-    },
-    "Tornadus": {
-        //2015-16
-    },
-    "Tornadus-Therian": {
-
-    },
-    "Thundurus": {
-        //2015-16
-    },
-    "Thundurus-Therian": {
-        //2015
-    },
-    "Reshiram": {
-        //2016
-    },
-    "Zekrom": {
-        //2016
-    },
-    "Landorus": {
-        //2015
-    },
-    "Landorus-Therian": {
-        //2015-16
-    },
-    "Kyurem": {
-
-    },
-    "Kyurem-Black": {
-
-    },
-    "Kyurem-White": {
-        //2016
-    },
-
-    //KALOS
-    "Chesnaught": {
-        //2014
-    },
-    "Delphox": {
-
-    },
-    "Greninja": {
-        //2014-15
-        "2014 Life Orb Offense": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 0,
-                "sp": 252,
-            },
-            "nature": "Timid",
-            "item": "Life Orb",
-            "moves": [
-                "Ice Beam",
-                "Dark Pulse",
-                "Scald",
-                "U-turn",
-            ],
-        },
-    },
-    "Diggersby": {
-        //2014
-    },
-    "Talonflame": {
-        //2014-16
-        "Physical LO Tailwind": {
-            "level": 50,
-            "evs": {
-                "hp": 4,
-                "at": 252,
-                "df": 0,
-                "sa": 0,
-                "sd": 0,
-                "sp": 252,
-            },
-            "nature": "Jolly",
-            "item": "Life Orb",
-            "moves": [
-                "Brave Bird",
-                "Flare Blitz",
-                "Tailwind",
-                "Taunt",
-            ],
-        },
-    },
-    "Vivillon": {
-        //2014
-    },
-    "Pyroar": {
-        //2014
-    },
-    "Florges": {
-        //2014
-    },
-    "Gogoat": {
-
-    },
-    "Pangoro": {
-
-    },
-    "Furfrou": {
-
-    },
-    "Meowstic": {
-        //2014
-    },
-    "Meowstic-F": {
-
-    },
-    "Doublade": {
-
-    },
-    "Aegislash": {
-        //2014-16
-        "Special Leftovers Sub": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 0,
-                "sa": 252,
-                "sd": 4,
-                "sp": 0,
-            },
-            "ivs": {
-                "at": 0,
-            },
-            "nature": "Modest",
-            "item": "Leftovers",
-            "moves": [
-                "Shadow Ball",
-                "Flash Cannon",
-                "Substitute",
-                "King's Shield",
-            ],
-        },
-    },
-    "Aromatisse": {
-        //2014
-    },
-    "Slurpuff": {
-
-    },
-    "Malamar": {
-
-    },
-    "Barbaracle": {
-
-    },
-    "Skrelp": {
-
-    },
-    "Dragalge": {
-        //2014
-    },
-    "Clawitzer": {
-        //2014
-    },
-    "Heliolisk": {
-
-    },
-    "Tyrantrum": {
-
-    },
-    "Aurorus": {
-        //2014
-    },
-    "Sylveon": {
-        //2014-16
-    },
-    "Hawlucha": {
-
-    },
-    "Dedenne": {
-
-    },
-    "Carbink": {
-
-    },
-    "Goodra": {
-        //2014
-        "honchkro13's 2014 US Nats 2nd AV": {
-            "level": 50,
-            "evs": {
-                "hp": 252,
-                "at": 0,
-                "df": 20,
-                "sa": 228,
-                "sd": 4,
-                "sp": 4,
-            },
-            "nature": "Modest",
-            "item": "Assault Vest",
-            "moves": [
-                "Dragon Pulse",
-                "Flamethrower",
-                "Thunderbolt",
-                "Feint",
-            ],
-        },
-    },
-    "Klefki": {
-        //2014-16
-    },
-    "Trevenant": {
-        //2014
-    },
-    "Gourgeist-Super": {
-        //2014
-    },
-    "Avalugg": {
-
-    },
-    "Noivern": {
-        //2014
-    },
-    "Xerneas": {
-        //2016
-    },
-    "Yveltal": {
-        //2016
-    },
-    "Zygarde": {
-
-    },
-
-    //base
-
-        //"": {
-        //    "level": 50,
-        //    "evs": {
-        //        "hp": 0,
-        //        "at": 0,
-        //        "df": 0,
-        //        "sa": 0,
-        //        "sd": 0,
-        //        "sp": 0
-        //    },
-        //    "ivs": {
-        //        "at": 0,
-        //    },
-        //    "nature": "",
-        //    "ability": "",
-        //    "item": "",
-        //    "moves": [
-        //        "",
-        //        "",
-        //        "",
-        //        ""
-        //    ]
-        //},
-}
+	"Aegislash": {
+		"THE CRUMBLER (Special Attacker)": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sa": "252",
+				"sd": "4"
+			},
+			"ivs": {
+				"sp": "0"
+			},
+			"nature": "Quiet",
+			"ability": "Stance Change",
+			"item": "Weakness Policy",
+			"moves": [
+				"Shadow Ball",
+				"Shadow Sneak",
+				"Sacred Sword",
+				"Flash Cannon"
+			]
+		},
+		"SubToxic": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Stance Change",
+			"item": "Leftovers",
+			"moves": [
+				"Substitute",
+				"Toxic",
+				"Shadow Ball",
+				"Flash Cannon"
+			]
+		},
+		"Physical Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "252",
+				"sd": "4"
+			},
+			"ivs": {
+				"sp": "0"
+			},
+			"nature": "Brave",
+			"ability": "Stance Change",
+			"item": "Life Orb",
+			"moves": [
+				"Shadow Sneak",
+				"Sacred Sword",
+				"Iron Head",
+				"Shadow Claw"
+			]
+		},
+		"DragonWhale's SubToxic": {
+			"level": 50,
+			"evs": {
+				"hp": "224",
+				"sa": "156",
+				"sd": "36",
+				"sp": "92"
+			},
+			"nature": "Modest",
+			"ability": "Stance Change",
+			"item": "Leftovers",
+			"moves": [
+				"Substitute",
+				"Toxic",
+				"Shadow Ball",
+				"Flash Cannon"
+			]
+		},
+		"The Ethan Special": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"df": "252"
+			},
+			"ivs": {
+				"sp": "0"
+			},
+			"nature": "Relaxed",
+			"ability": "Stance Change",
+			"item": "Weakness Policy",
+			"moves": [
+				"King's Shield",
+				"Shadow Ball",
+				"Shadow Sneak",
+				"Sacred Sword"
+			]
+		}
+	},
+	"Alakazam": {
+		"Bulky Zam": {
+			"level": 50,
+			"evs": {
+				"hp": "100",
+				"df": "244",
+				"sa": "12",
+				"sd": "12",
+				"sp": "140"
+			},
+			"nature": "Timid",
+			"ability": "Magic Guard",
+			"item": "Alakazite",
+			"moves": [
+				"Psychic",
+				"Focus Blast",
+				"Shadow Ball",
+				"Hidden Power Ice"
+			]
+		}
+	},
+	"Articuno": {
+		"Theorymon's Sheer Cold Fisher": {
+			"level": 50,
+			"evs": {
+				"hp": "220",
+				"df": "4",
+				"sa": "4",
+				"sd": "252",
+				"sp": "28"
+			},
+			"nature": "Calm",
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"moves": [
+				"Sheer Cold",
+				"Substitute",
+				"Roost",
+				"Freeze-Dry"
+			]
+		},
+		"Assault Vest": {
+			"level": 50,
+			"evs": {
+				"hp": "108",
+				"df": "4",
+				"sa": "252",
+				"sd": "4",
+				"sp": "140"
+			},
+			"nature": "Modest",
+			"ability": "Pressure",
+			"item": "Assault Vest",
+			"moves": [
+				"Sheer Cold",
+				"Freeze-Dry",
+				"Hurricane",
+				"Ice Shard"
+			]
+		}
+	},
+	"Azumarill": {
+		"Belly Drum": {
+			"level": 50,
+			"evs": {
+				"hp": "228",
+				"at": "252",
+				"df": "12",
+				"sd": "12",
+				"sp": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Huge Power",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Aqua Jet",
+				"Play Rough",
+				"Waterfall",
+				"Superpower"
+			]
+		},
+		"All Out Attcker": {
+			"level": 50,
+			"evs": {
+				"hp": "228",
+				"at": "252",
+				"df": "12",
+				"sd": "12",
+				"sp": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Huge Power",
+			"item": "Assault Vest",
+			"moves": [
+				"Aqua Jet",
+				"Play Rough",
+				"Waterfall",
+				"Knock Off"
+			]
+		},
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"hp": "228",
+				"at": "252",
+				"df": "12",
+				"sd": "12",
+				"sp": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Huge Power",
+			"item": "Choice Band",
+			"moves": [
+				"Aqua Jet",
+				"Play Rough",
+				"Waterfall",
+				"Superpower"
+			]
+		}
+	},
+	"Beedrill": {
+		"Offensive Pivot": {
+			"level": 50,
+			"evs": {
+				"at": "228",
+				"df": "36",
+				"sp": "244"
+			},
+			"nature": "Jolly",
+			"ability": "Swarm",
+			"item": "Beedrillite",
+			"moves": [
+				"U-turn",
+				"Poison Jab",
+				"Drill Run",
+				"Knock Off"
+			]
+		}
+	},
+	"Blastoise": {
+		"Wallbreaker": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sa": "252"
+			},
+			"nature": "Modest",
+			"ability": "Torrent",
+			"item": "Blastoisinite",
+			"moves": [
+				"Water Pulse",
+				"Aura Sphere",
+				"Ice Beam",
+				"Dark Pulse"
+			]
+		}
+	},
+	"Blaziken": {
+		"Mega Sweeper": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Speed Boost",
+			"item": "Blazikenite",
+			"moves": [
+				"Flare Blitz",
+				"Superpower",
+				"Stone Edge",
+				"Knock Off"
+			]
+		},
+		"Mixed Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "52",
+				"sa": "244",
+				"sp": "212"
+			},
+			"ivs": {
+				"hp": "30",
+				"df": "30"
+			},
+			"nature": "Naive",
+			"ability": "Speed Boost",
+			"item": "Life Orb",
+			"moves": [
+				"Overheat",
+				"Hidden Power Ice",
+				"Superpower",
+				"High Jump Kick"
+			]
+		},
+		"Baton Pass": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Impish",
+			"ability": "Speed Boost",
+			"item": "",
+			"moves": [
+				"Protect",
+				"Swords Dance",
+				"Baton Pass",
+				"Blaze Kick"
+			]
+		}
+	},
+	"Breloom": {
+		"Offensive Spore": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Technician",
+			"item": "Focus Sash",
+			"moves": [
+				"Spore",
+				"Mach Punch",
+				"Bullet Seed",
+				"Rock Tomb"
+			]
+		},
+		"Tacticat Teammate": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"df": "252"
+			},
+			"nature": "Impish",
+			"ability": "Poison Heal",
+			"item": "Toxic Orb",
+			"moves": [
+				"Spore",
+				"Focus Punch",
+				"Substitute",
+				"Protect"
+			]
+		}
+	},
+	"Chansey": {
+		"Standard": {
+			"level": 50,
+			"evs": {
+				"hp": "44",
+				"df": "252",
+				"sd": "212"
+			},
+			"nature": "Bold",
+			"ability": "Natural Cure",
+			"item": "Eviolite",
+			"moves": [
+				"Seismic Toss",
+				"Ice Beam",
+				"Thunderbolt",
+				"Flamethrower"
+			]
+		},
+		"Minimize": {
+			"level": 50,
+			"evs": {
+				"df": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "",
+			"item": "Eviolite",
+			"moves": [
+				"Seismic Toss",
+				"Ice Beam",
+				"Thunderbolt",
+				"Flamethrower"
+			]
+		}
+	},
+	"Charizard": {
+		"SD Flame Charge X": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Blaze",
+			"item": "Charizardite X",
+			"moves": [
+				"Flame Charge",
+				"Outrage",
+				"Flare Blitz",
+				"Dragon Claw"
+			]
+		},
+		"Defensive X": {
+			"level": 50,
+			"evs": {
+				"hp": "172",
+				"df": "116",
+				"sp": "220"
+			},
+			"nature": "Jolly",
+			"ability": "Blaze",
+			"item": "Charizardite X",
+			"moves": [
+				"Will-O-Wisp",
+				"Roost",
+				"Flame Charge",
+				"Dragon Claw"
+			]
+		},
+		"Drought Attacker": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Blaze",
+			"item": "Charizardite Y",
+			"moves": [
+				"Overheat",
+				"Solar Beam",
+				"Focus Blast",
+				"Hidden Power Ice"
+			]
+		}
+	},
+	"Clefable": {
+		"Minimize": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"nature": "Bold",
+			"ability": "Unaware",
+			"item": "Kee Berry",
+			"moves": [
+				"Moonblast",
+				"Stored Power",
+				"Fire Blast",
+				"Thunderbolt"
+			]
+		}
+	},
+	"Cloyster": {
+		"Shell Smash": {
+			"level": 50,
+			"evs": {
+				"hp": "108",
+				"at": "252",
+				"df": "4",
+				"sd": "4",
+				"sp": "140"
+			},
+			"nature": "Adamant",
+			"ability": "Skill Link",
+			"item": "King's Rock",
+			"moves": [
+				"Shell Smash",
+				"Icicle Spear",
+				"Rock Blast",
+				"Ice Shard"
+			]
+		}
+	},
+	"Conkeldurr": {
+		"Assault Vest": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "252",
+				"df": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Guts",
+			"item": "Assault Vest",
+			"moves": [
+				"Drain Punch",
+				"Mach Punch",
+				"Knock Off",
+				"Ice Punch"
+			]
+		}
+	},
+	"Cresselia": {
+		"Standard Defensive Cres": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"nature": "Bold",
+			"ability": "Levitate",
+			"item": "Leftovers",
+			"moves": [
+				"Ice Beam",
+				"Psychic",
+				"Moonblast",
+				"Psyshock"
+			]
+		}
+	},
+	"Dragonite": {
+		"Dragon Dance": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Multiscale",
+			"item": "Lum Berry",
+			"moves": [
+				"Outrage",
+				"Extreme Speed",
+				"Earthquake",
+				"Fire Punch"
+			]
+		},
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Multiscale",
+			"item": "Choice Band",
+			"moves": [
+				"Outrage",
+				"Extreme Speed",
+				"Earthquake",
+				"Fire Punch"
+			]
+		}
+	},
+	"Entei": {
+		"Assault Vest": {
+			"level": 50,
+			"evs": {
+				"hp": "132",
+				"at": "252",
+				"df": "52",
+				"sd": "52",
+				"sp": "20"
+			},
+			"nature": "Adamant",
+			"ability": "Pressure",
+			"item": "Assault Vest",
+			"moves": [
+				"Sacred Fire",
+				"Stone Edge",
+				"Bulldoze",
+				"Flame Charge"
+			]
+		},
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Pressure",
+			"item": "Choice Band",
+			"moves": [
+				"Sacred Fire",
+				"Stone Edge",
+				"Bulldoze",
+				"Iron Head"
+			]
+		},
+		"Pressure Stall": {
+			"level": 50,
+			"evs": {
+				"hp": "20",
+				"at": "232",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"moves": [
+				"Protect",
+				"Substitute",
+				"Toxic",
+				"Sacred Fire"
+			]
+		}
+	},
+	"Excadrill": {
+		"Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"hp": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Mold Breaker",
+			"item": "Choice Scarf",
+			"moves": [
+				"Earthquake",
+				"Iron Head",
+				"Rock Slide",
+				"Horn Drill"
+			]
+		},
+		"Sand Sweeper": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Sand Rush",
+			"item": "Life Orb",
+			"moves": [
+				"Earthquake",
+				"Iron Head",
+				"Rock Slide",
+				"Swords Dance"
+			]
+		},
+		"Versatile Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Mold Breaker",
+			"item": "Assault Vest",
+			"moves": [
+				"Earthquake",
+				"Iron Head",
+				"Rock Tomb",
+				"Horn Drill"
+			]
+		}
+	},
+	"Ferrothorn": {
+		"Wall-Nut": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"ivs": {
+				"sp": "0"
+			},
+			"nature": "Relaxed",
+			"ability": "Iron Barbs",
+			"item": "Leftovers",
+			"moves": [
+				"Power Whip",
+				"Gyro Ball",
+				"Knock Off",
+				"Iron Head"
+			]
+		}
+	},
+	"Garchomp": {
+		"Lurechomp": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Rough Skin",
+			"item": "",
+			"moves": [
+				"Earthquake",
+				"Outrage",
+				"Rock Tomb",
+				"Dragon Claw"
+			]
+		},
+		"Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Rough Skin",
+			"item": "Choice Scarf",
+			"moves": [
+				"Outrage",
+				"Earthquake",
+				"Stone Edge",
+				"Fire Fang"
+			]
+		},
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Rough Skin",
+			"item": "Choice Band",
+			"moves": [
+				"Outrage",
+				"Earthquake",
+				"Poison Jab",
+				"Fire Fang"
+			]
+		},
+		"Versatile Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Naive",
+			"ability": "Rough Skin",
+			"item": "Life Orb",
+			"moves": [
+				"Earthquake",
+				"Outrage",
+				"Draco Meteor",
+				"Fire Blast"
+			]
+		}
+	},
+	"Gengar": {
+		"Bulky Trapper": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sp": "252",
+				"df": "4"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Gengarite",
+			"moves": [
+				"Destiny Bond",
+				"Will-O-Wisp",
+				"Hex",
+				"Sludge Bomb"
+			]
+		},
+		"Offensive Trapper": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Gengarite",
+			"moves": [
+				"Destiny Bond",
+				"Shadow Ball",
+				"Sludge Bomb",
+				"Icy Wind"
+			]
+		},
+		"Perish Trapper": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sp": "252",
+				"sa": "4"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Gengarite",
+			"moves": [
+				"Perish Song",
+				"Protect",
+				"Substitute",
+				"Sludge Bomb"
+			]
+		},
+		"CasinoGar": {
+			"level": 50,
+			"evs": {
+				"hp": "188",
+				"df": "116",
+				"sa": "4",
+				"sd": "4",
+				"sp": "196"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Gengarite",
+			"moves": [
+				"Hypnosis",
+				"Hex",
+				"Focus Blast",
+				"Sludge Bomb"
+			]
+		},
+		"Focus Sash": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Focus Sash",
+			"moves": [
+				"Shadow Ball",
+				"Sludge Bomb",
+				"Focus Blast",
+				"Icy Wind"
+			]
+		},
+		"SubDisable": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Black Sludge",
+			"moves": [
+				"Substitute",
+				"Disable",
+				"Shadow Ball",
+				"Focus Blast"
+			]
+		},
+	},
+	"Glalie": {
+		"Moody": {
+			"level": 50,
+			"evs": {
+				"hp": "172",
+				"sd": "84",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Moody",
+			"item": "Leftovers",
+			"moves": [
+				"Frost Breath",
+				"Freeze-Dry",
+				"Sheer Cold",
+				"Substitute"
+			]
+		}
+	},
+	"Gliscor": {
+		"Poison Healer": {
+			"level": 50,
+			"evs": {
+				"hp": "228",
+				"df": "68",
+				"sp": "212"
+			},
+			"nature": "Impish",
+			"ability": "Poison Heal",
+			"item": "Toxic Orb",
+			"moves": [
+				"Protect",
+				"Substitute",
+				"Earthquake",
+				"Guillotine"
+			]
+		}
+	},
+	"Greninja": {
+		"All-Out Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "20",
+				"sa": "236",
+				"sp": "252"
+			},
+			"nature": "Naive",
+			"ability": "Protean",
+			"item": "Life Orb",
+			"moves": [
+				"Ice Beam",
+				"Dark Pulse",
+				"Gunk Shot",
+				"Low Kick"
+			]
+		},
+		"Max Attack": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sa": "4",
+				"sp": "252"
+			},
+			"nature": "Naive",
+			"ability": "Protean",
+			"item": "Life Orb",
+			"moves": [
+				"Low Kick",
+				"Gunk Shot",
+				"Ice Beam",
+				"Dark Pulse"
+			]
+		},
+		"Focus Sash": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"sa": "252",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Protean",
+			"item": "",
+			"moves": [
+				"Ice Beam",
+				"Dark Pulse",
+				"Hydro Pump",
+				"Extrasensory"
+			]
+		}
+	},
+	"Gyarados": {
+		"Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "220",
+				"df": "244",
+				"sp": "44"
+			},
+			"nature": "Impish",
+			"ability": "Intimidate",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Waterfall",
+				"Ice Fang",
+				"Earthquake",
+				"Aqua Tail"
+			]
+		},
+		"Mega Dragon Dance": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Intimidate",
+			"item": "Gyaradosite",
+			"moves": [
+				"Dragon Dance",
+				"Crunch",
+				"Earthquake",
+				"Ice Fang"
+			]
+		}
+	},
+	"Heatran": {
+		"Fast Stall": {
+			"level": 50,
+			"evs": {
+				"hp": "212",
+				"sd": "44",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Flash Fire",
+			"item": "Leftovers",
+			"moves": [
+				"Magma Storm",
+				"Toxic",
+				"Substitute",
+				"Earth Power"
+			]
+		},
+		"Bulky Stall": {
+			"level": 50,
+			"evs": {
+				"hp": "212",
+				"df": "4",
+				"sa": "44",
+				"sd": "156",
+				"sp": "92"
+			},
+			"nature": "Calm",
+			"ability": "Flash Fire",
+			"item": "Leftovers",
+			"moves": [
+				"Magma Storm",
+				"Toxic",
+				"Substitute",
+				"Earth Power"
+			]
+		},
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sa": "252",
+				"sp": "4"
+			},
+			"nature": "Modest",
+			"ability": "Flash Fire",
+			"item": "Choice Specs",
+			"moves": [
+				"Overheat",
+				"Flash Cannon",
+				"Earth Power",
+				"Ancient Power"
+			]
+		}
+	},
+	"Heracross": {
+		"Mega Hera": {
+			"level": 50,
+			"evs": {
+				"hp": "156",
+				"at": "252",
+				"df": "4",
+				"sd": "4",
+				"sp": "92"
+			},
+			"nature": "Adamant",
+			"ability": "Guts",
+			"item": "Heracronite",
+			"moves": [
+				"Pin Missile",
+				"Close Combat",
+				"Rock Blast",
+				"Bullet Seed"
+			]
+		}
+	},
+	"Hippowdon": {
+		"Rocky Helmet Wall": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"nature": "Relaxed",
+			"ability": "Sand Stream",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Slack Off",
+				"Yawn",
+				"Stealth Rock",
+				"Earthquake"
+			]
+		},
+		"Specially Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sd": "252",
+				"df": "4"
+			},
+			"nature": "Sassy",
+			"ability": "Sand Stream",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Slack Off",
+				"Yawn",
+				"Stealth Rock",
+				"Earthquake"
+			]
+		}
+	},
+	"Houndoom": {
+		"Mega Doom": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Flash Fire",
+			"item": "Houndoominite",
+			"moves": [
+				"Nasty Plot",
+				"Dark Pulse",
+				"Fire Blast",
+				"Hidden Power Grass"
+			]
+		}
+	},
+	"Hydreigon": {
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Modest",
+			"ability": "Levitate",
+			"item": "Choice Specs",
+			"moves": [
+				"Draco Meteor",
+				"Dark Pulse",
+				"Fire Blast",
+				"Earth Power"
+			]
+		},
+		"Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Choice Scarf",
+			"moves": [
+				"Draco Meteor",
+				"Dark Pulse",
+				"Fire Blast",
+				"Dragon Pulse"
+			]
+		},
+		"Life Orb": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Modest",
+			"ability": "Levitate",
+			"item": "Life Orb",
+			"moves": [
+				"Draco Meteor",
+				"Dark Pulse",
+				"Fire Blast",
+				"Earth Power"
+			]
+		}
+	},
+	"Kangaskhan": {
+		"Sweeper": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sp": "252",
+				"sd": "4"
+			},
+			"nature": "Jolly",
+			"ability": "Scrappy",
+			"item": "Kangaskhanite",
+			"moves": [
+				"Earthquake",
+				"Double-Edge",
+				"Sucker Punch",
+				"Power-Up Punch"
+			]
+		},
+		"All-Out Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sp": "252",
+				"sd": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Scrappy",
+			"item": "Kangaskhanite",
+			"moves": [
+				"Double-Edge",
+				"Sucker Punch",
+				"Earthquake",
+				"Ice Punch"
+			]
+		},
+		"Secret Power KangHAXkhan": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "252",
+				"sd": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Scrappy",
+			"item": "Kangaskhanite",
+			"moves": [
+				"Secret Power",
+				"Sucker Punch",
+				"Rock Slide",
+				"Power-Up Punch"
+			]
+		},
+		"Mixed Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "148",
+				"df": "4",
+				"sa": "100",
+				"sp": "252"
+			},
+			"nature": "Naive",
+			"ability": "Scrappy",
+			"item": "Kangaskhanite",
+			"moves": [
+				"Fake Out",
+				"Double-Edge",
+				"Fire Blast",
+				"Ice Beam"
+			]
+		}
+	},
+	"Klefki": {
+		"Standard": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sd": "252"
+			},
+			"nature": "Calm",
+			"ability": "Prankster",
+			"item": "Leftovers",
+			"moves": [
+				"Swagger",
+				"Foul Play",
+				"Thunder Wave",
+				"Substitute"
+			]
+		},
+		"Dual Screens": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"nature": "Bold",
+			"ability": "Prankster",
+			"item": "Light Clay",
+			"moves": [
+				"Reflect",
+				"Light Screen",
+				"Foul Play",
+				"Thunder Wave"
+			]
+		}
+	},
+	"Landorus-T": {
+		"Scarf": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Intimidate",
+			"item": "Choice Scarf",
+			"moves": [
+				"Earthquake",
+				"U-Turn",
+				"Rock Slide",
+				"Superpower"
+			]
+		},
+		"Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"df": "252"
+			},
+			"nature": "Impish",
+			"ability": "Intimidate",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Earthquake",
+				"Rock Tomb",
+				"U-Turn",
+				"Knock Off"
+			]
+		}
+	},
+	"Lapras": {
+		"infinitymkds' Assault Vest": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sa": "252"
+			},
+			"nature": "Quiet",
+			"ability": "Water Absorb",
+			"item": "Assault Vest",
+			"moves": [
+				"Sheer Cold",
+				"Freeze-Dry",
+				"Surf",
+				"Ice Shard"
+			]
+		}
+	},
+	"Latios": {
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"df": "4",
+				"sa": "252",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Choice Specs",
+			"moves": [
+				"Draco Meteor",
+				"Psyshock",
+				"Surf",
+				"Thunderbolt"
+			]
+		}
+	},
+	"Liepard": {
+		"Tacticat": {
+			"level": 50,
+			"evs": {
+				"hp": "44",
+				"df": "212",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Timid",
+			"ability": "Prankster",
+			"item": "Leftovers",
+			"moves": [
+				"Assist",
+				"Substitute",
+				"Swagger",
+				"Foul Play"
+			]
+		}
+	},
+	"Lopunny": {
+		"Physical Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Limber",
+			"item": "Lopunnite",
+			"moves": [
+				"Fake Out",
+				"Return",
+				"High Jump Kick",
+				"Ice Punch"
+			]
+		}
+	},
+	"Lucario": {
+		"Physical": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sp": "252",
+				"sd": "4"
+			},
+			"nature": "Jolly",
+			"ability": "Justified",
+			"item": "Lucarionite",
+			"moves": [
+				"Close Combat",
+				"Extreme Speed",
+				"Iron Tail",
+				"Ice Punch"
+			]
+		},
+		"Special": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sp": "252",
+				"sd": "4"
+			},
+			"nature": "Timid",
+			"ability": "Inner Focus",
+			"item": "Lucarionite",
+			"moves": [
+				"Aura Sphere",
+				"Flash Cannon",
+				"Vacuum Wave",
+				"Dark Pulse"
+			]
+		}
+	},
+	"Mamoswine": {
+		"Sash": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Thick Fat",
+			"item": "Focus Sash",
+			"moves": [
+				"Earthquake",
+				"Icicle Spear",
+				"Ice Shard",
+				"Knock Off"
+			]
+		},
+		"Assault Vest": {
+			"level": 50,
+			"evs": {
+				"hp": "44",
+				"at": "212",
+				"sd": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Thick Fat",
+			"item": "Assault Vest",
+			"moves": [
+				"Earthquake",
+				"Icicle Spear",
+				"Ice Shard",
+				"Fissure"
+			]
+		},
+		"Physically Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"df": "252"
+			},
+			"nature": "Impish",
+			"ability": "Thick Fat",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Earthquake",
+				"Icicle Spear",
+				"Ice Shard",
+				"Knock Off"
+			]
+		}
+	},
+	"Manectric": {
+		"All-Out Attacker": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Lightning Rod",
+			"item": "Manectite",
+			"moves": [
+				"Thunderbolt",
+				"Overheat",
+				"Hidden Power Ice",
+				"Volt Switch"
+			]
+		}
+	},
+	"Mawile": {
+		"Physical Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "252",
+				"sp": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Intimidate",
+			"item": "Mawilite",
+			"moves": [
+				"Play Rough",
+				"Sucker Punch",
+				"Knock Off",
+				"Fire Fang"
+			]
+		}
+	},
+	"Metagross": {
+		"All-Out Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sp": "252",
+				"df": "4"
+			},
+			"nature": "Jolly",
+			"ability": "Clear Body",
+			"item": "Metagrossite",
+			"moves": [
+				"Zen Headbutt",
+				"Bullet Punch",
+				"Ice Punch",
+				"Earthquake"
+			]
+		},
+		"Substitute + Hone Claws": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sp": "252",
+				"df": "4"
+			},
+			"nature": "Jolly",
+			"ability": "Clear Body",
+			"item": "Metagrossite",
+			"moves": [
+				"Substitute",
+				"Hone Claws",
+				"Earthquake",
+				"Meteor Mash"
+			]
+		}
+	},
+	"Pidgeot": {
+		"Specially Offensive": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Big Pecks",
+			"item": "Pidgeotite",
+			"moves": [
+				"Hurricane",
+				"Heat Wave",
+				"Hidden Power Ice",
+				"U-turn"
+			]
+		}
+	},
+	"Raikou": {
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "12",
+				"sp": "244"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Pressure",
+			"item": "Choice Specs",
+			"moves": [
+				"Thunderbolt",
+				"Hidden Power Ice",
+				"Volt Switch",
+				"Shadow Ball"
+			]
+		},
+		"Substitute + Calm Mind": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "12",
+				"sp": "244"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"moves": [
+				"Thunderbolt",
+				"Hidden Power Ice",
+				"Substitute",
+				"Calm Mind"
+			]
+		}
+	},
+	"Porygon2": {
+		"Physically Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "244",
+				"sd": "12",
+				"df": "252"
+			},
+			"nature": "Bold",
+			"ability": "Trace",
+			"item": "Eviolite",
+			"moves": [
+				"Ice Beam",
+				"Foul Play",
+				"Discharge",
+				"Shadow Ball"
+			]
+		},
+		"Offensive": {
+			"level": 50,
+			"evs": {
+				"hp": "244",
+				"df": "12",
+				"sa": "252"
+			},
+			"nature": "Modest",
+			"ability": "Download",
+			"item": "Eviolite",
+			"moves": [
+				"Ice Beam",
+				"Shadow Ball",
+				"Tri Attack",
+				"Hidden Power Ground"
+			]
+		},
+		"Trick Room": {
+			"level": 50,
+			"evs": {
+				"hp": "244",
+				"df": "12",
+				"sa": "252"
+			},
+			"ivs": {
+				"sp": "0"
+			},
+			"nature": "Quiet",
+			"ability": "Download",
+			"item": "Eviolite",
+			"moves": [
+				"Shadow Ball",
+				"Ice Beam",
+				"Tri Attack",
+				"Hidden Power Ground"
+			]
+		}
+	},
+	"Rhyperior": {
+		"Assault Vest": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"df": "4",
+				"sd": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Solid Rock",
+			"item": "Assault Vest",
+			"moves": [
+				"Earthquake",
+				"Rock Blast",
+				"Ice Punch",
+				"Horn Drill"
+			]
+		}
+	},
+	"Roserade": {
+		"Offensive": {
+			"level": 50,
+			"evs": {
+				"hp": "12",
+				"sa": "248",
+				"sp": "248"
+			},
+			"ivs": {
+				"at": "0",
+				"sa": "30",
+				"sp": "30"
+			},
+			"nature": "Modest",
+			"ability": "Technician",
+			"item": "Life Orb",
+			"moves": [
+				"Sludge Bomb",
+				"Magical Leaf",
+				"Hidden Power Fire",
+				"Extrasensory"
+			]
+		}
+	},
+	"Rotom-H": {
+		"Tank": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sd": "252",
+				"sp": "4"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30",
+			},
+			"nature": "Calm",
+			"ability": "Levitate",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Volt Switch",
+				"Overheat",
+				"Thunderbolt",
+				"Hidden Power Ice"
+			]
+		},
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sa": "252",
+				"sp": "4"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30",
+			},
+			"nature": "Modest",
+			"ability": "Levitate",
+			"item": "Choice Specs",
+			"moves": [
+				"Overheat",
+				"Volt Switch",
+				"Hidden Power Ice",
+				"Thunderbolt"
+			]
+		},
+		"Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"hp": "76",
+				"df": "24",
+				"sa": "188",
+				"sp": "220"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30",
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Choice Scarf",
+			"moves": [
+				"Volt Switch",
+				"Overheat",
+				"Hidden Power Ice",
+				"Thunderbolt"
+			]
+		},
+		"Substitute": {
+			"level": 50,
+			"evs": {
+				"hp": "156",
+				"sd": "220",
+				"sp": "132"
+			},
+			"nature": "Calm",
+			"ability": "Levitate",
+			"item": "Leftovers",
+			"moves": [
+				"Substitute",
+				"Overheat",
+				"Will-O-Wisp",
+				"Discharge"
+			]
+		}
+	},
+	"Rotom-W": {
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sa": "252"
+			},
+			"nature": "Modest",
+			"ability": "Levitate",
+			"item": "Choice Specs",
+			"moves": [
+				"Hydro Pump",
+				"Thunderbolt",
+				"Volt Switch",
+				"Hidden Power Ice"
+			]
+		},
+		"Physically Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sa": "4"
+			},
+			"nature": "Bold",
+			"ability": "Levitate",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Hydro Pump",
+				"Thunderbolt",
+				"Volt Switch",
+				"Hidden Power Ice"
+			]
+		},
+		"Choice Scarf": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"sa": "252",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Levitate",
+			"item": "Choice Scarf",
+			"moves": [
+				"Hydro Pump",
+				"Thunderbolt",
+				"Volt Switch",
+				"Hidden Power Ice"
+			]
+		}
+	},
+	"Sableye": {
+		"Calm Mind Booster": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Bold",
+			"ability": "Prankster",
+			"item": "Sablenite",
+			"moves": [
+				"Will-O-Wisp",
+				"Recover",
+				"Calm Mind",
+				"Snarl"
+			]
+		},
+		"Defensive Utility": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "204",
+				"sd": "52"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Impish",
+			"ability": "Prankster",
+			"item": "Sablenite",
+			"moves": [
+				"Will-O-Wisp",
+				"Recover",
+				"Foul Play",
+				"Sucker Punch"
+			]
+		}
+	},
+	"Salamence": {
+		"Dragon Dance": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"at": "252",
+				"sp": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Intimidate",
+			"item": "Salamencite",
+			"moves": [
+				"Double-Edge",
+				"Earthquake",
+				"Facade",
+				"Stone Edge"
+			]
+		},
+		"Mixed Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "4",
+				"sa": "252",
+				"sp": "252"
+			},
+			"nature": "Rash",
+			"ability": "Intimidate",
+			"item": "Salamencite",
+			"moves": [
+				"Draco Meteor",
+				"Fire Blast",
+				"Double-Edge",
+				"Hyper Voice"
+			]
+		},
+		"SpD Facade": {
+			"level": 50,
+			"evs": {
+				"hp": "244",
+				"at": "4",
+				"df": "4",
+				"sd": "228",
+				"sp": "28"
+			},
+			"nature": "Careful",
+			"ability": "Intimidate",
+			"item": "Salamencite",
+			"moves": [
+				"Dragon Dance",
+				"Facade",
+				"Earthquake",
+				"Roost"
+			]
+		},
+		"Toxicmence": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Intimidate",
+			"item": "Salamencite",
+			"moves": [
+				"Toxic",
+				"Substitute",
+				"Roost",
+				"Return"
+			]
+		}
+	},
+	"Serperior": {
+		"Solid Snake": {
+			"level": 50,
+			"evs": {
+				"hp": "116",
+				"df": "220",
+				"sp": "172"
+			},
+			"nature": "Timid",
+			"ability": "Contrary",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Leaf Storm",
+				"Reflect",
+				"Synthesis",
+				"Glare"
+			]
+		},
+		"All-Out Attacker": {
+			"level": 50,
+			"evs": {
+				"sa": "248",
+				"sd": "12",
+				"sp": "248"
+			},
+			"ivs": {
+				"at": "0",
+				"sa": "30",
+				"sp": "30"
+			},
+			"nature": "Timid",
+			"ability": "",
+			"item": "Life Orb",
+			"moves": [
+				"Leaf Storm",
+				"Dragon Pulse",
+				"Hidden Power Fire",
+				"Giga Drain"
+			]
+		}
+	},
+	"Scizor": {
+		"Bobo's Standard": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "108",
+				"df": "28",
+				"sd": "116",
+				"sp": "4"
+			},
+			"nature": "Adamant",
+			"ability": "Technician",
+			"item": "Scizorite",
+			"moves": [
+				"Bullet Punch",
+				"U-turn",
+				"Knock Off",
+				"Superpower"
+			]
+		},
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sp": "4",
+				"at": "252"
+			},
+			"nature": "Adamant",
+			"ability": "Technician",
+			"item": "Choice Band",
+			"moves": [
+				"Bullet Punch",
+				"U-turn",
+				"Superpower",
+				"Pursuit"
+			]
+		},
+		"Physically Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "4",
+				"df": "252"
+			},
+			"nature": "Impish",
+			"ability": "Technician",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Bullet Punch",
+				"U-turn",
+				"Roost",
+				"Toxic"
+			]
+		},
+		"Specially Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "52",
+				"sd": "204"
+			},
+			"nature": "Careful",
+			"ability": "Technician",
+			"item": "Scizorite",
+			"moves": [
+				"Iron Defense",
+				"Roost",
+				"Bullet Punch",
+				"U-turn"
+			]
+		}
+	},
+	"Sharpedo": {
+		"Sashed Special Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "4",
+				"sa": "252",
+				"sp": "252"
+			},
+			"nature": "Modest",
+			"ability": "Speed Boost",
+			"item": "Focus Sash",
+			"moves": [
+				"Dark Pulse",
+				"Ice Beam",
+				"Hydro Pump",
+				"Destiny Bond"
+			]
+		}
+	},
+	"Skarmory": {
+		"Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sp": "4",
+				"df": "252"
+			},
+			"nature": "Impish",
+			"ability": "Sturdy",
+			"item": "Leftovers",
+			"moves": [
+				"Roost",
+				"Stealth Rock",
+				"Drill Peck",
+				"Iron Head"
+			]
+		}
+	},
+	"Suicune": {
+		"Fully Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"at": "0",
+				"df": "252",
+				"sa": "0",
+				"sd": "4",
+				"sp": "0"
+			},
+			"ivs": {
+				"at": "0"
+			},
+			"nature": "Bold",
+			"ability": "Pressure",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Scald",
+				"Ice Beam",
+				"Icy Wind",
+				"Shadow Ball"
+			]
+		}
+	},
+	"Sylveon": {
+		"Choice Specs": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"sa": "252",
+				"sd": "4"
+			},
+			"nature": "Modest",
+			"ability": "Pixilate",
+			"item": "Choice Specs",
+			"moves": [
+				"Hyper Voice",
+				"Psyshock",
+				"Shadow Ball",
+				"Hidden Power Ground"
+			]
+		}
+	},
+	"Talonflame": {
+		"Choice Band": {
+			"level": 50,
+			"evs": {
+				"hp": "44",
+				"at": "244",
+				"sp": "220"
+			},
+			"nature": "Adamant",
+			"ability": "Gale Wings",
+			"item": "Choice Band",
+			"moves": [
+				"Brave Bird",
+				"Flare Blitz",
+				"U-turn",
+				"Giga Impact"
+			]
+		},
+		"Bulky Rocky Helmet": {
+			"level": 50,
+			"evs": {
+				"hp": "172",
+				"df": "244",
+				"sp": "92"
+			},
+			"nature": "Jolly",
+			"ability": "Gale Wings",
+			"item": "Rocky Helmet",
+			"moves": [
+				"Brave Bird",
+				"Will-O-Wisp",
+				"Roost",
+				"Taunt"
+			]
+		},
+		"Flexible Attacker": {
+			"level": 50,
+			"evs": {
+				"hp": "44",
+				"at": "252",
+				"sp": "212"
+			},
+			"nature": "Adamant",
+			"ability": "Gale Wings",
+			"item": "Life Orb",
+			"moves": [
+				"Brave Bird",
+				"Flare Blitz",
+				"U-turn",
+				"Swords Dance"
+			]
+		},
+		"Specially Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "236",
+				"at": "4",
+				"df": "44",
+				"sd": "188",
+				"sp": "36"
+			},
+			"nature": "Careful",
+			"ability": "Gale Wings",
+			"item": "",
+			"moves": [
+				"Acrobatics",
+				"Taunt",
+				"Will-O-Wisp",
+				"Roost"
+			]
+		}
+	},
+	"Thundurus": {
+		"Attacker": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Prankster",
+			"item": "Life Orb",
+			"moves": [
+				"Thunder Wave",
+				"Thunderbolt",
+				"Hidden Power Ice",
+				"Focus Blast"
+			]
+		},
+		"Tank": {
+			"level": 50,
+			"evs": {
+				"hp": "244",
+				"df": "168",
+				"sa": "68",
+				"sp": "28"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Bold",
+			"ability": "Prankster",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Thunderwave",
+				"Thunderbolt",
+				"Hidden Power Ice",
+				"Taunt"
+			]
+		},
+		"Nasty Plot": {
+			"level": 50,
+			"evs": {
+				"sa": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"ivs": {
+				"at": "0",
+				"df": "30"
+			},
+			"nature": "Timid",
+			"ability": "Prankster",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Nasty Plot",
+				"Thunderbolt",
+				"Hidden Power Ice",
+				"Grass Knot"
+			]
+		},
+		"SwagPlay": {
+			"level": 50,
+			"evs": {
+				"hp": "180",
+				"df": "44",
+				"sa": "4",
+				"sd": "252",
+				"sp": "28"
+			},
+			"nature": "Calm",
+			"ability": "Prankster",
+			"item": "Leftovers",
+			"moves": [
+				"Swagger",
+				"Thunder Wave",
+				"Substitute",
+				"Foul Play"
+			]
+		},
+		"Max Special Defense": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "4",
+				"sd": "252",
+			},
+			"nature": "Calm",
+			"ability": "Prankster",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Hidden Power Ice",
+				"Thunderbolt",
+				"Focus Blast",
+				"Grass Knot"
+			]
+		},
+		"Max Defense": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sd": "4",
+			},
+			"nature": "Bold",
+			"ability": "Prankster",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Hidden Power Ice",
+				"Thunderbolt",
+				"Focus Blast",
+				"Grass Knot"
+			]
+		}
+	},
+
+	"Weavile": {
+		"Physical Attacker": {
+			"level": 50,
+			"evs": {
+				"at": "252",
+				"sd": "4",
+				"sp": "252"
+			},
+			"nature": "Jolly",
+			"ability": "Pressure",
+			"item": "Life Orb",
+			"moves": [
+				"Ice Shard",
+				"Knock Off",
+				"Low Kick",
+				"Icicle Crash"
+			]
+		}
+	},
+	"Whimsicott": {
+		"Cotton Stall": {
+			"level": 50,
+			"evs": {
+				"hp": "204",
+				"sd": "52",
+				"sp": "252"
+			},
+			"nature": "Timid",
+			"ability": "Prankster",
+			"item": "Leftovers",
+			"moves": [
+				"Encore",
+				"Leech Seed",
+				"Moonblast",
+				"Cotton Guard"
+			]
+		}
+	},
+	"Wobbuffet": {
+		"\(>_<)7": {
+			"level": 50,
+			"evs": {
+				"df": "252",
+				"sd": "252",
+				"sp": "4"
+			},
+			"nature": "Bold",
+			"ability": "Shadow Tag",
+			"item": "Sitrus Berry",
+			"moves": [
+				"Encore",
+				"Counter",
+				"Mirror Coat",
+				"Destiny Bond"
+			]
+		}
+	},
+	"Zapdos": {
+		"Defensive": {
+			"level": 50,
+			"evs": {
+				"hp": "252",
+				"df": "252",
+				"sa": "4"
+			},
+			"ivs": {
+				"sp": "30"
+			},
+			"nature": "Bold",
+			"ability": "Pressure",
+			"item": "Leftovers",
+			"moves": [
+				"Roost",
+				"Discharge",
+				"Heat Wave",
+				"Hidden Power Ice"
+			]
+		}
+	}
+};
