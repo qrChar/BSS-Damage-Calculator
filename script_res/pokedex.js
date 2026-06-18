@@ -18445,7 +18445,6 @@ var POKEDEX_CHAMPIONS = {};
 //performs deep copy; necessary to preserve form data for nat dex
 POKEDEX_CHAMPIONS = $.extend(true, {}, POKEDEX_CHAMPIONS);
 
-POKEDEX_CHAMPIONS['Raichu'].formes = null;
 POKEDEX_CHAMPIONS['Absol'].formes = ["Absol", "Mega Absol"];
 POKEDEX_CHAMPIONS['Garchomp'].formes = ["Garchomp", "Mega Garchomp"];
 POKEDEX_CHAMPIONS['Lucario'].formes = ["Lucario", "Mega Lucario"];
