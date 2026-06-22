@@ -505,6 +505,46 @@ var SETDEX_GEN10 = {
             ]
         },
     },
+    "Blaziken": {
+        "Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+            "item": "Blazikenite",
+            "moves": [
+                "Flare Blitz",
+                "Close Combat",
+                "Thunder Punch",
+                "Rock Slide",
+            ],
+        },
+    },
+    "Swampert": {
+        "Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+            "item": "Swampertite",
+            "moves": [
+                "Wave Crash",
+                "Earthquake",
+                "Ice Punch",
+                "Flip Turn",
+            ],
+        },
+    },
     "Pelipper": {
         "Sash Tailwind Offense": {
             "level": 50,
