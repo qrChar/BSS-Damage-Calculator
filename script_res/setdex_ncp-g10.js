@@ -119,6 +119,27 @@ var SETDEX_GEN10 = {
             ]
         },
     },
+	"Raichu": {
+        "Mega Y": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "ability": "Lightning Rod",
+            "item": "Raichunite Y",
+            "moves": [
+                "Zap Cannon",
+                "Focus Blast",
+                "Grass Knot",
+                "Alluring Voice",
+            ],
+        },
+    },
     "Clefable": {
         "Physically Defensive": {
             "sps": {
@@ -639,6 +660,27 @@ var SETDEX_GEN10 = {
                 "Fake Out",
                 "Encore",
                 "Will-O-Wisp",
+            ],
+        },
+    },
+    "Mawile": {
+        "Bulky Offense Mega": {
+            "sps": {
+                "hp": 32,
+                "at": 32,
+                "df": 2,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0,
+            },
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "item": "Mawilite",
+            "moves": [
+                "Iron Head",
+                "Play Rough",
+                "Sucker Punch",
+                "Fire Fang",
             ],
         },
     },
@@ -1356,7 +1398,7 @@ var SETDEX_GEN10 = {
                 "sp": 32,
             },
 			"nature": "Adamant",
-			"item": "Spell Tag",
+			"item": "Life Orb",
 			"moves": [
 				"Shadow Claw",
 				"Play Rough",
