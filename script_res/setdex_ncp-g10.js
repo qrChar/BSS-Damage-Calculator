@@ -295,6 +295,24 @@ var SETDEX_GEN10 = {
                 "Ice Fang"
             ]
         },
+		"PhysDef": {
+            "sps": {
+                "hp": 32,
+                "at": 2,
+                "df": 32,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Impish",
+            "item": "Leftovers",
+            "moves": [
+                "Waterfall",
+                "Avalanche",
+                "Power Whip",
+                "Earthquake"
+            ]
+        },
     },
     "Aerodactyl": {
         "Offensive Mega": {
@@ -545,6 +563,44 @@ var SETDEX_GEN10 = {
                 "Rock Slide",
             ],
         },
+		"Sash": {
+            "sps": {
+                "hp": 0,
+                "at": 32,
+                "df": 0,
+                "sa": 5,
+                "sd": 0,
+                "sp": 29,
+            },
+            "nature": "Naughty",
+			"ability": "Speed Boost",
+            "item": "Focus Sash",
+            "moves": [
+                "Close Combat",
+                "Overheat",
+                "Thunder Punch",
+                "Rock Slide",
+            ],
+        },
+		"Life Orb": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+			"ability": "Speed Boost",
+            "item": "Focus Sash",
+            "moves": [
+                "Close Combat",
+                "Flare Blitz",
+                "Thunder Punch",
+                "Rock Slide",
+            ],
+        },
     },
     "Swampert": {
         "Mega": {
@@ -724,6 +780,103 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+	"Metagross": {
+        "Mega Bulky Offense": {
+            "sps": {
+                "hp": 32,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 2,
+            },
+            "nature": "Adamant",
+            "ability": "Clear Body",
+            "item": "Metagrossite",
+            "moves": [
+                "Psychic Fangs",
+                "Bullet Punch",
+                "Earthquake",
+                "Thunder Punch",
+            ],
+        },
+        "Mega Fast Offensive": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "ability": "Clear Body",
+            "item": "Metagrossite",
+            "moves": [
+                "Psychic Fangs",
+                "Bullet Punch",
+                "Earthquake",
+                "Thunder Punch",
+            ],
+        },
+        "Mega IronPress": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 30,
+                "sa": 0,
+                "sd": 0,
+                "sp": 4,
+            },
+            "nature": "Impish",
+            "ability": "Clear Body",
+            "item": "Metagrossite",
+            "moves": [
+                "Body Press",
+                "Psychic Fangs",
+                "Bullet Punch",
+                "Earthquake",
+            ],
+        },
+	},
+	"Staraptor": {
+        "Mega Offensive": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "item": "Staraptite",
+            "moves": [
+                "Close Combat",
+                "Brave Bird",
+                "U-turn",
+                "Blaze Kick",
+            ],
+        },
+		"Mega Bulky (HS)": {
+            "sps": {
+                "hp": 31,
+                "at": 3,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "item": "Staraptite",
+            "moves": [
+                "Close Combat",
+                "Brave Bird",
+                "U-turn",
+                "Blaze Kick",
+            ],
+        },
+    },
     "Lopunny": {
         "Mega": {
             "sps": {
@@ -781,7 +934,7 @@ var SETDEX_GEN10 = {
                 "Outrage",
             ],
         },
-		"Phazer PhysDef": {
+		"Tankchomp PhysDef": {
             "sps": {
                 "hp": 32,
                 "at": 0,
@@ -799,7 +952,7 @@ var SETDEX_GEN10 = {
                 "Stealth Rock",
             ],
         },
-		"Phazer SpDef": {
+		"Tankchomp SpDef": {
             "sps": {
                 "hp": 32,
                 "at": 0,
@@ -1173,6 +1326,44 @@ var SETDEX_GEN10 = {
                 "Hydro Pump",
             ],
         },
+		"Sash Protean": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "ability": "Protean",
+            "item": "Focus Sash",
+            "moves": [
+                "Ice Beam",
+                "Dark Pulse",
+                "Sludge Wave",
+                "Water Shuriken",
+            ],
+        },
+		"Sash Torrent": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "ability": "Torrent",
+            "item": "Focus Sash",
+            "moves": [
+                "Surf",
+                "Dark Pulse",
+                "Ice Beam",
+                "Water Shuriken",
+            ],
+        },
     },	
     "Talonflame": {
         "Sharp Beak TW Offense": {
@@ -1406,6 +1597,25 @@ var SETDEX_GEN10 = {
 				"Drain Punch",
 			],
 		},
+		"Offensive Trick Room Support": {
+            "sps": {
+                "hp": 29,
+                "at": 30,
+                "df": 7,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0,
+            },
+            "nature": "Adamant",
+            "ability": "Disguise",
+            "item": "Life Orb",
+            "moves": [
+                "Shadow Sneak",
+                "Shadow Claw",
+                "Play Rough",
+                "Wood Hammer",
+            ],
+        },
 	},
     "Kommo-o": {
         "Omni Boost Lefties Sweeper": {
@@ -1644,6 +1854,48 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+	"Ceruledge": {
+        "Weak Armor": {
+            "sps": {
+                "hp": 2,
+                "at": 31,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+            "ability": "Weak Armor",
+            "item": "Focus Sash",
+            "moves": [
+                "Bitter Blade",
+                "Poltergeist",
+                "Shadow Sneak",
+                "Close Combat",
+            ],
+        },
+    },
+	"Bellibolt": {
+        "Specially Defensive": {
+            "sps": {
+                "hp": 31,
+                "at": 0,
+                "df": 4,
+                "sa": 0,
+                "sd": 28,
+                "sp": 3,
+            },
+            "nature": "Calm",
+            "ability": "Electromorphosis",
+            "item": "Leftovers",
+            "moves": [
+                "Parabolic Charge",
+                "Volt Switch",
+                "Acid Spray",
+                "Sucker Punch",
+            ],
+        },
+    },
     "Palafin": {
         "Mystic Water Offense": {
             "sps": {
@@ -1726,6 +1978,44 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+	"Gholdengo": {
+        "Choice Scarf": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Modest",
+            "item": "Choice Scarf",
+            "moves": [
+                "Make It Rain",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Focus Blast",
+            ],
+        },
+		"PhysDef": {
+            "sps": {
+                "hp": 31,
+                "at": 0,
+                "df": 32,
+                "sa": 0,
+                "sd": 0,
+                "sp": 3,
+            },
+            "nature": "Bold",
+            "item": "Leftovers",
+            "moves": [
+                "Make It Rain",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Focus Blast",
+            ],
+        },
+    },
     "Sinistcha": {
         "Sitrus TR Redirect": {
             "sps": {
@@ -1783,7 +2073,7 @@ var SETDEX_GEN10 = {
                 "Aura Sphere",
             ],
         },
-		"SpDef Lefties": {
+		"SpDef Sitrus": {
             "sps": {
                 "hp": 32,
                 "at": 0,
@@ -1792,8 +2082,8 @@ var SETDEX_GEN10 = {
                 "sd": 32,
                 "sp": 0,
             },
-            "nature": "Modest",
-            "item": "Leftovers",
+            "nature": "Calm",
+            "item": "Sitrus Berry",
             "moves": [
                 "Draco Meteor",
                 "Flash Cannon",
@@ -1803,7 +2093,7 @@ var SETDEX_GEN10 = {
         },
     },
     "Ninetales-Alola": {
-        "Ice Offense": {
+        "Veil Support": {
             "sps": {
                 "hp": 1,
                 "at": 0,
@@ -1813,30 +2103,12 @@ var SETDEX_GEN10 = {
                 "sp": 32,
             },
             "nature": "Timid",
-            "item": "Never-Melt Ice",
+            "item": "Light Clay",
             "moves": [
                 "Blizzard",
                 "Freeze-Dry",
                 "Icy Wind",
                 "Moonblast",
-            ],
-        },
-        "Sash Veil Encore": {
-            "sps": {
-                "hp": 1,
-                "at": 0,
-                "df": 1,
-                "sa": 32,
-                "sd": 0,
-                "sp": 32,
-            },
-            "nature": "Timid",
-            "item": "Focus Sash",
-            "moves": [
-                "Blizzard",
-                "Icy Wind",
-                "Aurora Veil",
-                "Encore",
             ],
         },
     },
@@ -1877,6 +2149,26 @@ var SETDEX_GEN10 = {
                 "Shadow Ball",
                 "Heat Wave",
                 "Overheat",
+            ],
+        },
+    },
+	"Samurott-Hisui": {
+        "Black Glasses": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+            "item": "Black Glasses",
+            "moves": [
+                "Ceaseless Edge",
+                "Sacred Sword",
+                "Sucker Punch",
+                "Razor Shell",
             ],
         },
     },
