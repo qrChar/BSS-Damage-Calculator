@@ -350,7 +350,7 @@ var SETDEX_GEN10 = {
                 "Draco Meteor",
                 "Air Slash",
                 "Thunderbolt",
-                "Extremespeed"
+                "Extreme Speed"
             ]
         },
 		"Lum DD": {
@@ -367,7 +367,7 @@ var SETDEX_GEN10 = {
             "moves": [
                 "Outrage",
                 "Earthquake",
-                "Extremespeed",
+                "Extreme Speed",
                 "Fire Punch"
             ]
         },
@@ -1858,7 +1858,7 @@ var SETDEX_GEN10 = {
         "Weak Armor": {
             "sps": {
                 "hp": 2,
-                "at": 31,
+                "at": 32,
                 "df": 0,
                 "sa": 0,
                 "sd": 0,
@@ -1876,7 +1876,7 @@ var SETDEX_GEN10 = {
         },
     },
 	"Bellibolt": {
-        "Specially Defensive": {
+        "SpDef": {
             "sps": {
                 "hp": 31,
                 "at": 0,
@@ -1886,6 +1886,25 @@ var SETDEX_GEN10 = {
                 "sp": 3,
             },
             "nature": "Calm",
+            "ability": "Electromorphosis",
+            "item": "Leftovers",
+            "moves": [
+                "Parabolic Charge",
+                "Volt Switch",
+                "Acid Spray",
+                "Sucker Punch",
+            ],
+        },
+		"PhysDef": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 32,
+                "sa": 0,
+                "sd": 2,
+                "sp": 0,
+            },
+            "nature": "Relaxed",
             "ability": "Electromorphosis",
             "item": "Leftovers",
             "moves": [
