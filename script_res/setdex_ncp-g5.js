@@ -67,25 +67,6 @@ var SETDEX_GEN5 = {
 				"Freeze-Dry"
 			]
 		},
-		"Assault Vest": {
-			"level": 50,
-			"evs": {
-				"hp": "108",
-				"df": "4",
-				"sa": "252",
-				"sd": "4",
-				"sp": "140"
-			},
-			"nature": "Modest",
-			"ability": "Pressure",
-			"item": "Assault Vest",
-			"moves": [
-				"Sheer Cold",
-				"Freeze-Dry",
-				"Hurricane",
-				"Ice Shard"
-			]
-		}
 	},
 	"Azumarill": {
 		"Choice Band": {
@@ -478,21 +459,21 @@ var SETDEX_GEN5 = {
 				"Swords Dance"
 			]
 		},
-		"Versatile Attacker": {
+		"Chople Berry": {
 			"level": 50,
 			"evs": {
 				"at": "252",
 				"sd": "4",
 				"sp": "252"
 			},
-			"nature": "Jolly",
-			"ability": "Mold Breaker",
-			"item": "Assault Vest",
+			"nature": "Adamant",
+			"ability": "Sand Rush",
+			"item": "Chople Berry",
 			"moves": [
 				"Earthquake",
 				"Iron Head",
-				"Rock Tomb",
-				"Horn Drill"
+				"Rock Slide",
+				"Swords Dance"
 			]
 		}
 	},
@@ -978,7 +959,7 @@ var SETDEX_GEN5 = {
 		}
 	},
 	"Lapras": {
-		"infinitymkds' Assault Vest": {
+		"Sitrus Berry Tank": {
 			"level": 50,
 			"evs": {
 				"hp": "252",
@@ -987,7 +968,7 @@ var SETDEX_GEN5 = {
 			},
 			"nature": "Quiet",
 			"ability": "Water Absorb",
-			"item": "Assault Vest",
+			"item": "Sitrus Berry",
 			"moves": [
 				"Sheer Cold",
 				"Freeze-Dry",

@@ -487,6 +487,24 @@ var SETDEX_GEN10 = {
                 "Knock Off"
             ]
         },
+		"PhysDef Mega": {
+            "sps": {
+                "hp": 32,
+                "at": 2,
+                "df": 32,
+                "sa": 0,
+                "sd": 0,
+                "sp": 0
+            },
+            "nature": "Adamant",
+            "item": "Scizorite",
+            "moves": [
+                "Bullet Punch",
+                "U-turn",
+                "Close Combat",
+                "Knock Off"
+            ]
+        },
     },
     "Tyranitar": {
         "Scarf Offense": {
@@ -736,7 +754,7 @@ var SETDEX_GEN10 = {
                 "Iron Head",
                 "Play Rough",
                 "Sucker Punch",
-                "Fire Fang",
+                "Thunder Punch",
             ],
         },
     },
@@ -1048,6 +1066,27 @@ var SETDEX_GEN10 = {
                 "Rock Tomb",
                 "Ice Fang",
                 "Stealth Rock",
+            ],
+        },
+    },
+	"Mamoswine": {
+        "Sash": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+            "ability": "Thick Fat",
+            "item": "Focus Sash",
+            "moves": [
+                "Icicle Spear",
+                "Ice Shard",
+                "Earthquake",
+                "Rock Tomb",
             ],
         },
     },
@@ -1812,6 +1851,46 @@ var SETDEX_GEN10 = {
             ],
 		},
 	},
+    "Skeledirge": {
+        "Physically Defensive": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 32,
+                "sa": 0,
+                "sd": 2,
+                "sp": 0,
+            },
+            "nature": "Bold",
+            "ability": "Unaware",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Torch Song",
+                "Shadow Ball",
+                "Hex",
+                "Alluring Voice",
+            ],
+        },
+        "Specially Defensive": {
+            "sps": {
+                "hp": 32,
+                "at": 0,
+                "df": 2,
+                "sa": 0,
+                "sd": 32,
+                "sp": 0,
+            },
+            "nature": "Calm",
+            "ability": "Unaware",
+            "item": "Sitrus Berry",
+            "moves": [
+                "Torch Song",
+                "Shadow Ball",
+                "Hex",
+                "Alluring Voice",
+            ],
+        }
+    },
     "Maushold": {
         "Chople Support": {
             "sps": {

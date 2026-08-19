@@ -1741,7 +1741,7 @@ function calculate() {
         //result.crit = p1.moves[i].isCrit
         result.hits = p1.moves[i].hits;
         if(p1.moves[i].isOHKO && !($("#p1").find(".move" + (i + 1)).find(".move-z").prop("checked")) && !($("#p1").find(".max").prop("checked"))){
-            result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=KGzH7ZR4BXs&t=19s'>is it a one-hit KO?!</a>"; //dank memes
+            result.koChanceText = "<a href = 'https://www.youtube.com/watch?v=tdLZCeQco5c'>one-hit KO!</a>"; //dank memes
         }
         $(resultLocations[0][i].move + " + label").text(p1.moves[i].name.replace("Hidden Power ", "HP "));
         $(resultLocations[0][i].damage).text(minPercent + " - " + maxPercent + "%" + userHPResultText(p1.moves[i], p1, p2, minDamage, maxDamage));
