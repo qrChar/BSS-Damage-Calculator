@@ -1292,11 +1292,10 @@ function setDamage(move, attacker, defender, description, isQuarteredByProtect, 
  * - Levitate + ignoring/negating abilities (handled before; ability should be blank by the time this function is called)
  * - Flying type + Ring Target (handled in function getMoveEffectiveness)
  * - Thousand Arrows (handled in function getMoveEffectiveness)
- * - Ingrain (not implemented currently)
  * - Flying type + Roost (not implemented, not planning on implementing, wouldn't be handled here anyway)
  */
 function pIsGrounded(mon, field) {
-    return field.isGravity || mon.item == "Iron Ball" || (mon.item != "Air Balloon" && !(["Levitate", "Eelevate"].includes(mon.ability)) && !(mon.hasType("Flying")));
+    return field.isGravity || mon.item == "Iron Ball" || (mon.item != "Air Balloon" && !(["Levitate", "Eelevate"].includes(mon.ability)) && !(mon.hasType("Flying"))) || field.isIngrain;
 }
 
 //1. Custom BP
@@ -1875,7 +1874,13 @@ function calcAttack(move, attacker, defender, description, isCritical, defAbilit
     }
     else if (isMidMoveAtkBoost) {
         description.attackBoost = attacker.boosts[attackStat];
-        attack = getModifiedStat(attackSource.rawStats[attackStat], attacker.boosts[attackStat]);
+        //explore a possible better implementation
+        if (attackSource.boosts[attackStat] === 0 || (isCritical && attackSource.boosts[attackStat] < 0)) {
+            attack = attackSource.rawStats[attackStat];
+        }
+        else {
+            attack = getModifiedStat(attackSource.rawStats[attackStat], attacker.boosts[attackStat]);
+        }
         attacker.boosts[attackStat] -= (1 * isContrary);
     }
     //c. Crit
@@ -2362,8 +2367,8 @@ function calcFinalMods(move, attacker, defender, field, description, isCritical,
         finalMods.push(0x800);
         description.defenderAbility = defAbility;
     }
-    //h. Fluffy (contact)
-    if (defAbility === "Fluffy" && move.makesContact) {
+    //h. Fluffy (contact)/Aura Guard
+    if (["Fluffy", "Aura Guard"].includes(defAbility) && move.makesContact) {
         finalMods.push(0x800);
         description.defenderAbility = defAbility;
     }
