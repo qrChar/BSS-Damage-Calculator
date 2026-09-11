@@ -798,6 +798,82 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+    "Absol": {
+        "Z Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "item": "Absolite Z",
+            "moves": [
+                "Night Slash",
+                "Shadow Claw",
+                "Shadow Sneak",
+                "Sucker Punch",
+            ],
+        },
+    },	
+	"Salamence": {
+        "Fast DD": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "item": "Salamencite",
+            "moves": [
+                "Double-Edge",
+                "Earthquake",
+                "Temper Flare",
+                "Dragon Dance",
+            ],
+        },
+        "Bulky DD": {
+            "sps": {
+                "hp": 32,
+                "at": 15,
+                "df": 0,
+                "sa": 0,
+                "sd": 9,
+                "sp": 10,
+            },
+            "nature": "Adamant",
+            "item": "Salamencite",
+            "moves": [
+                "Double-Edge",
+                "Earthquake",
+                "Temper Flare",
+                "Dragon Dance",
+            ],
+        },
+        "Special": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "item": "Salamencite",
+            "moves": [
+                "Hyper Voice",
+                "Draco Meteor",
+                "Fire Blast",
+                "Flamethrower",
+            ],
+        },		
+    },
 	"Metagross": {
         "Mega Bulky Offense": {
             "sps": {
@@ -988,6 +1064,24 @@ var SETDEX_GEN10 = {
                 "Stealth Rock",
             ],
         },
+		"Z Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "item": "Garchompite Z",
+            "moves": [
+                "Draco Meteor",
+                "Dragon Pulse",
+                "Fire Blast",
+                "Earth Power",
+            ],
+        },
     },
     "Lucario": {
         "Physical Mega": {
@@ -1021,6 +1115,25 @@ var SETDEX_GEN10 = {
             "nature": "Timid",
             "ability": "Inner Focus",
             "item": "Lucarionite",
+            "moves": [
+                "Aura Sphere",
+                "Flash Cannon",
+                "Vacuum Wave",
+                "Dark Pulse",
+            ],
+        },
+		"Z Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "ability": "Inner Focus",
+            "item": "Lucarionite Z",
             "moves": [
                 "Aura Sphere",
                 "Flash Cannon",
@@ -1617,6 +1730,26 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+    "Golisopod": {
+        "Mega": {
+            "sps": {
+                "hp": 32,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 2,
+                "sp": 0,
+            },
+            "nature": "Adamant",
+            "item": "Golisopite",
+            "moves": [
+                "First Impression",
+                "Iron Head",
+                "Sucker Punch",
+                "U-turn",
+            ],
+        },
+    },
 	"Mimikyu": {
 		"Swords Dance": {
 			"sps": {
@@ -1691,6 +1824,48 @@ var SETDEX_GEN10 = {
                 "Flamethrower",
                 "Draco Meteor",
                 "Iron Defense",
+            ],
+        },
+    },
+    "Rillaboom": {
+        "Grassy Surge": {
+            "sps": {
+                "hp": 32,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 2,
+            },
+            "nature": "Adamant",
+			"ability": "Grassy Surge",
+            "item": "Life Orb",
+            "moves": [
+                "Grassy Glide",
+                "Knock Off",
+                "High Horsepower",
+                "Drum Beating",
+            ],
+        },
+    },
+    "Cinderace": {
+        "Scarf": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Adamant",
+			"ability": "Libero",
+            "item": "Choice Scarf",
+            "moves": [
+                "Pyro Ball",
+                "High Jump Kick",
+                "Gunk Shot",
+                "U-turn",
             ],
         },
     },
@@ -2076,6 +2251,27 @@ var SETDEX_GEN10 = {
             ],
         },
     },
+    "Baxcalibur": {
+        "DD Mega": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+			"ability": "Thermal Exchange",
+            "item": "Baxcalibrite",
+            "moves": [
+                "Icicle Crash",
+                "Glaive Rush",
+                "Earthquake",
+                "Ice Shard",
+            ],
+        },
+    },	
 	"Gholdengo": {
         "Choice Scarf": {
             "sps": {
