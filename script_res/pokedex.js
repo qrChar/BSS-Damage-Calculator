@@ -18120,6 +18120,7 @@ var POKEDEX_ZA_NATDEX = $.extend(true, {}, POKEDEX_SV_NATDEX, {
             "sp": 151,
         },
         "w": 49,
+		"ab": "Sharpness",
         "isAlternateForme": true,
     },
     "Mega Staraptor": {
@@ -18148,6 +18149,7 @@ var POKEDEX_ZA_NATDEX = $.extend(true, {}, POKEDEX_SV_NATDEX, {
             "sp": 151,
         },
         "w": 99,
+		"ab": "Levitate",
         "isAlternateForme": true,
     },
     "Mega Lucario Z": {
@@ -18162,6 +18164,7 @@ var POKEDEX_ZA_NATDEX = $.extend(true, {}, POKEDEX_SV_NATDEX, {
             "sp": 151,
         },
         "w": 49.4,
+		"ab": "Aura Guard",
         "isAlternateForme": true,
     },
     "Mega Heatran": {
@@ -18247,6 +18250,7 @@ var POKEDEX_ZA_NATDEX = $.extend(true, {}, POKEDEX_SV_NATDEX, {
             "sp": 40,
         },
         "w": 148,
+		"ab": "Tough Claws",
         "isAlternateForme": true,
     },
     "Mega Magearna": {
@@ -18332,6 +18336,7 @@ var POKEDEX_ZA_NATDEX = $.extend(true, {}, POKEDEX_SV_NATDEX, {
             "sp": 87,
         },
         "w": 315,
+		"ab": "Thermal Exchange",
         "isAlternateForme": true,
     },
 });
@@ -18391,13 +18396,13 @@ var POKEDEX_ZA = {};
 ].forEach(e => POKEDEX_ZA[e] = POKEDEX_ZA_NATDEX[e]);
 
 //performs deep copy; necessary to preserve stat data for nat dex
-POKEDEX_ZA = $.extend(true, {}, POKEDEX_ZA);
-
-POKEDEX_ZA['Meditite'].bs.at = 56;
-POKEDEX_ZA['Medicham'].bs.at = 84;
-POKEDEX_ZA['Mega Mawile'].bs.at = 147;
-POKEDEX_ZA['Mega Medicham'].bs.at = 140;
-POKEDEX_ZA['Mega Starmie'].bs.at = 140;
+POKEDEX_ZA = $.extend(true, {}, POKEDEX_ZA, {
+    'Meditite': { 'bs': { 'at': 56 } },
+    'Medicham': { 'bs': { 'at': 84 } },
+    'Mega Mawile': { 'bs': { 'at': 147 } },
+    'Mega Medicham': { 'bs': { 'at': 140 } },
+    'Mega Starmie': { 'bs': { 'at': 140 } },
+});
 
 var POKEDEX_CHAMPIONS = {};
 [
