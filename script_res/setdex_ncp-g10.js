@@ -2066,6 +2066,27 @@ var SETDEX_GEN10 = {
             ],
         }
     },
+	"Pawmot": {
+        "Focus Sash": {
+            "sps": {
+                "hp": 2,
+                "at": 32,
+                "df": 0,
+                "sa": 0,
+                "sd": 0,
+                "sp": 32,
+            },
+            "nature": "Jolly",
+            "ability": "Iron Fist",
+            "item": "Focus Sash",
+            "moves": [
+                "Double Shock",
+                "Close Combat",
+                "Ice Punch",
+                "Mach Punch",
+            ],
+        },
+    },
     "Maushold": {
         "Chople Support": {
             "sps": {
@@ -2205,6 +2226,24 @@ var SETDEX_GEN10 = {
                 "Power Gem",
                 "Sludge Wave",
                 "Mud Shot",
+                "Energy Ball",
+            ],
+        },
+		"Mega": {
+            "sps": {
+                "hp": 1,
+                "at": 0,
+                "df": 0,
+                "sa": 32,
+                "sd": 1,
+                "sp": 32,
+            },
+            "nature": "Timid",
+            "item": "Glimmoranite",
+            "moves": [
+                "Power Gem",
+                "Sludge Wave",
+                "Earth Power",
                 "Energy Ball",
             ],
         },

@@ -1676,7 +1676,7 @@ var SETDEX_GEN5 = {
 			"moves": [
 				"Close Combat",
 				"Stone Edge",
-				"X Scissor",
+				"X-Scissor",
 				"Quick Attack"
 			]
 		}
